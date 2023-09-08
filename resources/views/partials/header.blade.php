@@ -11,11 +11,7 @@
 
     <style>
         /* Navigation Bar */
-        .btn-back {
-            background-color: rgb(149, 126, 0);
-            color: white;
-        }
-
+       
         .navbar-bg {
             position: absolute;
             top: 0;
@@ -23,14 +19,43 @@
             background-color: black;
         }
 
-        .nav-link,
-        .navbar-toggler-icon {
+        .nav-link
+         {
             color: white;
-        }
+            font-size:1.2rem;
+            
 
-        .nav-link:hover {
-            color: goldenrod;
         }
+        
+
+        
+.nav-item {
+    position: relative;
+}
+
+.nav-link::after {
+    content: '';
+    border-radius: 5px;
+    position: absolute;
+    bottom: -6px;
+    left: 0;
+    transform: scaleX(0);
+    width: 100%;
+    height: 3px;
+    background:  goldenrod;;
+    transition: transform 0.5s;
+}
+
+.nav-item:hover .nav-link,
+.navbar-brand:hover {
+    color: goldenrod;
+}
+
+.nav-item:hover .nav-link::after {
+    transform-origin: center;
+    transform: scaleX(-1);
+}
+
 
         .navbar-brand {
             font-size: 2rem;
@@ -40,13 +65,36 @@
 
         .navbar-book {
             padding: 1rem 0rem 1rem 0rem;
+            cursor: pointer;
         }
+        .btn-book {
+            background-color:#9f654f;
+            color: white;
+        }
+         .btn-book:hover{
+            background-color:#ab7865;
+
+
+         }
+        .btn-book a{
+            text-decoration:none;
+            color:white;
+            border:white;
+        }
+        .btn-back:hover{
+            background-color:#9f654f;
+            
+        }
+
+        
+      
+        
 
         /* Body */
         body {
-            padding: 70px 0 0 0;
+            
             margin: 0;
-            background: #060709;
+            background: grey;
             font-family: "Euclid Circular A", "Poppins";
             color: #f7f7f7;
         }
@@ -58,7 +106,7 @@
         html {
             height: 100%;
         }
-        /* Footer */
+       
 
         body {
             margin: 0;
@@ -67,16 +115,34 @@
             display: flex;
             flex-direction: column;
         }
+        .container.wrapper{
+            padding:30px;
+            top:70px;
+            min-height:100%;
+            position: relative;
 
-        .container.body {
-            flex: 1;
         }
 
-        .footer {
+       
+       /* footer */
+
+        footer {
+            position: relative;           
+            
+            width: 100%;
+            bottom: 0%;
             background-color: #000;  /* Background color */
             color: #fff;  /* Adjust the text color as needed */
             padding: 20px 0;
             text-align: center;
         }
+        .footer-row{
+            display: flex;
+            justify-content: center; 
+            align-items: center; 
+
+        }
+
+        
     </style>
 </head>

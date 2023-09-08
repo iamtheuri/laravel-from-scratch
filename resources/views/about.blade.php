@@ -3,7 +3,7 @@
 
 @include('partials.header')
 @include('partials.navbar')
-    <div class="container body">
+    <div class="container wrapper">
         
         
         
