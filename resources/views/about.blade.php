@@ -3,7 +3,9 @@
 
 @include('partials.header')
 @include('partials.navbar')
+
     <div class="container-fluid wrapper">
+
         
         
         
