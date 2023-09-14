@@ -29,7 +29,7 @@
         </ul>
         <div class="navbar-book">
           <button class="btn  btn-book" type="submit">
-            <a href="/contacts">Book A Session</a>
+            <a href="/contact">Book A Session</a>
           </button>
         </div>
       </div>

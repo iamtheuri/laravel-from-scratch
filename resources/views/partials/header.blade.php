@@ -29,32 +29,32 @@
         
 
         
-.nav-item {
-    position: relative;
-}
+        .nav-item {
+            position: relative;
+        }
 
-.nav-link::after {
-    content: '';
-    border-radius: 5px;
-    position: absolute;
-    bottom: -6px;
-    left: 0;
-    transform: scaleX(0);
-    width: 100%;
-    height: 3px;
-    background:  goldenrod;;
-    transition: transform 0.5s;
-}
+        .nav-link::after {
+            content: '';
+            border-radius: 5px;
+            position: absolute;
+            bottom: -6px;
+            left: 0;
+            transform: scaleX(0);
+            width: 100%;
+            height: 3px;
+            background:  goldenrod;
+            transition: transform 0.5s;
+        }
 
-.nav-item:hover .nav-link,
-.navbar-brand:hover {
-    color: goldenrod;
-}
+        .nav-item:hover .nav-link,
+        .navbar-brand:hover {
+            color: goldenrod;
+        }
 
-.nav-item:hover .nav-link::after {
-    transform-origin: center;
-    transform: scaleX(-1);
-}
+        .nav-item:hover .nav-link::after {
+            transform-origin: center;
+            transform: scaleX(-1);
+        }
 
 
         .navbar-brand {
@@ -71,11 +71,11 @@
             background-color:#9f654f;
             color: white;
         }
-         .btn-book:hover{
+            .btn-book:hover{
             background-color:#ab7865;
 
 
-         }
+            }
         .btn-book a{
             text-decoration:none;
             color:white;
@@ -86,9 +86,9 @@
             
         }
 
-        
-      
-        
+
+
+
 
         /* Body */
         body {
@@ -106,7 +106,7 @@
         html {
             height: 100%;
         }
-       
+
 
         body {
             margin: 0;
@@ -123,8 +123,8 @@
 
         }
 
-       
-       /* footer */
+
+        /* footer */
 
         footer {
             position: relative;           
