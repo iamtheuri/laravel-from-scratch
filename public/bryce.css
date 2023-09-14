@@ -1,0 +1,428 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,200;1,300;1,400;1,900&display=swap');
+
+
+* {
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-padding-top: 2rem;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* Navigation Bar */
+
+.navbar-bg {
+    position: absolute;
+    top: 0;
+    padding-left: 40px;
+    padding-right: 40px;
+
+    background-color: black;
+}
+
+.nav-link {
+    color: white;
+    font-size: 1.2rem;
+}
+
+.nav-item {
+    position: relative;
+}
+
+.nav-link::after {
+    content: "";
+    border-radius: 5px;
+    position: absolute;
+    bottom: -6px;
+    left: 0;
+    transform: scaleX(0);
+    width: 100%;
+    height: 3px;
+    background: goldenrod;
+    transition: transform 0.5s;
+}
+
+.nav-item:hover .nav-link,
+.navbar-brand:hover,
+.special-p {
+    color: goldenrod;
+}
+
+.nav-item:hover .nav-link::after {
+    transform-origin: center;
+    transform: scaleX(-1);
+}
+
+.navbar-brand {
+    font-size: 2rem;
+    font-weight: 800;
+    color: aliceblue;
+}
+
+.navbar-book {
+    padding: 1rem 0rem 1rem 0rem;
+    cursor: pointer;
+}
+
+.btn-book {
+    background-color: #9f654f;
+    color: white;
+}
+
+.btn-book:hover {
+    background-color: #ab7865;
+}
+
+.btn-book a {
+    text-decoration: none;
+    color: white;
+    border: white;
+}
+
+.btn-back:hover {
+    background-color: #9f654f;
+}
+
+/* Body */
+body {
+    height: 100%;
+    background: black;
+    font-family: "Euclid Circular A", "Poppins";
+}
+
+html {
+    height: 100%;
+}
+
+.container-fluid.wrapper {
+    top: 100px;
+    min-height: calc(100% - 70px);
+    width: 100%;
+    position: static;
+    background-color: black;
+}
+
+.intro-content {
+    width: 100%;
+}
+
+.intro-img {
+    position: relative;
+    overflow: hidden;
+   
+}
+
+.intro-img img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+
+}
+
+.intro-img::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right,
+            black,
+           transparent);
+
+    pointer-events: none;
+}
+
+/* Dark Color Filter Styles */
+.intro-img::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    pointer-events: none;
+}
+
+.description {
+    bottom: 100px;
+    left: 0;
+    position: absolute;
+}
+
+.description p {
+    font-size: 1.6rem;
+    color: #9f654f;
+    font-kerning: 1px;
+    font-style: italic;
+}
+
+.description .special-p {
+    position: relative;
+    cursor: pointer;
+    font-size: 1.6rem;
+    text-decoration: none;
+    font-kerning: 1px;
+    color: white;
+    line-height: 1.5;
+    transition: text-decoration 0.3s ease;
+}
+
+.special-p::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #9f654f;
+    transition: width 0.3s ease;
+}
+
+.special-p:hover {
+    color: #9f654f;
+}
+
+.special-p:hover::before {
+    width: 100%;
+}
+
+.latest-work{
+    padding-top: 10px;
+}
+
+.latest-work p {
+    font-size: 1.6rem;
+    color: white;
+    text-align: center;
+}
+
+.inline {
+    display: flex;
+   
+    justify-content: center;
+    align-items: center;
+}
+
+.inline p {
+    font-size: 1.6rem;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(400px, auto));
+    gap: 16px;
+    justify-items: center;
+}
+
+.gallery-image {
+    filter: grayscale(50%);   
+    width: 100%;
+    height: auto;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.8s ease-in-out, filter 0.2s ease-in-out;
+    overflow: hidden;
+    position: relative;
+   
+}
+
+.gallery-image:hover {
+    transform: scale(1.05);
+    filter: grayscale(0%);
+    filter: blur(0px);
+}
+
+.gallery-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.button ,.intro-what-we{
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.explore-more {
+    color: white;
+    background-color: #9f654f;
+    padding: 10px;
+    border-radius: unset;
+    margin: 10px;
+}
+
+.explore-more:hover {
+    background-color: #ab7865;
+}
+
+.about-me {
+    padding: 30px;
+    background: #1a1a1a;
+}
+
+.avatar-container {
+    width: 350px;
+    height: 350px;
+    overflow: hidden;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.avatar {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.col-md-6 {
+    padding: 10px;
+    justify-content: center;
+}
+
+.col-md-6 p,
+h2 {
+    color: white;
+}
+
+.socials-about {
+    display: flex;
+    justify-content: space-around;
+    width: 350px;
+}
+.intro-label{
+    display: block;
+
+}
+
+.intro-label h3,p ,.wedding{
+    color: #fff;
+   
+}
+.what-wedo-grid{
+    display: grid;
+    
+   
+    grid-template-columns: repeat(auto-fill, minmax(300px, auto));
+    gap: 2rem;
+    justify-items: center;
+
+}
+
+.brief-card{
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    justify-content: center;
+    max-width: 500px;
+    background-color:#1a1a1a ;
+    transition: all 1s ease-in-out;
+   
+}
+
+.brief-card:hover{
+    transform: scale(1.05);
+
+}
+@media (min-width:768px) {
+    .customer-rating{
+       
+        
+       
+        grid-template-columns: repeat(5, 1fr);
+        
+    
+    }
+    .what-wedo-grid{
+        grid-template-columns: repeat(3, 1fr); 
+
+    }
+    
+}
+.advert{
+    padding-top: 30px;
+}
+
+.container-advert {
+    background: linear-gradient(to right, rgba(17, 30, 34, 1), rgba(17, 30, 34, 0));
+    min-height: 500px;
+    background-image: url('images/wedding.jpeg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding-top: 30px;
+}
+
+
+
+.advert-description {
+    position: absolute;
+    bottom: 40px;
+    left: 10px;
+    padding: 10px; 
+ /* background-color: rgba(0, 0, 0, 0.7); */
+    color: #fff;
+}
+
+.advert-description h3 {
+    font-size: 1.5rem; /* Use relative font size */
+}
+
+.advert-description h2 {
+    font-size: 2rem; /* Use relative font size */
+}
+
+.customer-rating{
+    display: grid;
+    background-color: #1a1a1a;
+    padding: 30px;
+    
+   
+    grid-template-columns: repeat(auto-fill,minmax(auto, auto));
+    gap: 2rem;
+    justify-items: center;
+
+}
+.customer-card{
+    text-align: center;
+    border: 0.5px solid #ab7865;
+    
+}
+
+ /* Customer effect on scroll */
+ .fade-in {
+    opacity: 0;
+    transform: translateY(100px); /* Optional: Add a slight vertical offset */
+    transition: opacity 1s ease, transform 1s ease;
+}
+.fade-in-visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+
+    
+
+/* footer */
+
+footer {
+    position: relative;
+
+    width: 100%;
+    bottom: 0%;
+    background-color: black;
+   
+    color: #fff;
+    /* Adjust the text color as needed */
+    padding: 20px 0;
+    text-align: left;
+}
+
+.footer-row {
+    display: flex;
+    justify-content: center;
+}

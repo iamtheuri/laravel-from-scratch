@@ -1,4 +1,4 @@
-<div class="">
+
     <header class="header">
   <nav class="navbar navbar-expand-lg navbar-expand-md  bg-body-tertiary fixed-top">
     <div class="container-fluid navbar-bg">
@@ -37,4 +37,3 @@
   </nav>
 </header>
 
-</div>
