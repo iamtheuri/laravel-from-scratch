@@ -3,12 +3,18 @@
 @include('partials.header')
 @include('partials.navbar')
 
-    <div class="container-fluid wrapper">
+
+
+    <div class="container-fluid wrapper"> 
+        
+
 
         <section class="contact">
 
             <div class="content">
+
                 <h1>Connect With Us</h1>
+
                 <p>We would love to respond to your queries</p>
                 <p>Feel free to get in touch with Us</p>
             </div>

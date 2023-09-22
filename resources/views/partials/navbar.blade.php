@@ -2,7 +2,9 @@
     <header class="header">
   <nav class="navbar navbar-expand-lg navbar-expand-md  bg-body-tertiary fixed-top">
     <div class="container-fluid navbar-bg">
-      <a class="navbar-brand" href="/">Queen Dee</a>
+      <a class="navbar-brand" href="/">
+        <img src="assets{{asset('images/queendee-rem.png') }}" alt="" height="100px" srcset="">
+      </a>
       <button
       style="color:grey"
         class="navbar-toggler btn-sm"

@@ -1,7 +1,7 @@
 <head>
     <link
         rel="stylesheet"
-        href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+        href="  https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
     />
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
     <link
@@ -18,6 +18,8 @@
         href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
         rel="stylesheet"
     />
+
+
     {{-- Home Page Css --}}
     <link rel="stylesheet" href="{{ asset('css/bryce.css') }}">
     {{-- Contacts Page Css --}}
@@ -27,3 +29,5 @@
     <script src="{{ asset('js/fadein.js') }}"></script>
 </head>
 
+
+</head>
