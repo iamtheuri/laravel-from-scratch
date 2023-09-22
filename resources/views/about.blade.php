@@ -59,14 +59,75 @@
         font-style: italic;
         color: #fff000;
     }
+    .pricing-section {
+        display: flex;
+        justify-content: center;
+        align-items:baseline;
+        flex-wrap: wrap;
+        gap: 20px;
+        padding: 20px;
+    }
+
+    .pricing-package {
+        background-color: #1a1a1a;
+        border-radius: 10px;
+        padding: 20px;
+        text-align: left;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        flex: 2;
+        max-width: 300px;
+    }
+
+    .package-name {
+        font-size: 1.5rem;
+        margin: 10px 0;
+        color: #9f654f;
+    }
+
+    .package-description {
+        font-size: 1rem;
+        color: aliceblue;
+    }
+
+    .package-features ul {
+        list-style-type: circle;
+        padding: 0;
+    }
+
+    .package-features li {
+        text-align: left;
+    list-style: disc;
+        color: #fff;
+        margin-bottom: 10px;
+    }
+
+    .package-price {
+        font-size: 1.5rem;
+        color: #fff;
+        margin: 20px 0;
+    }
+
+    .package-button {
+        text-align: center;
+        width: 100%;
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #9f654f;
+        color: #fff;
+        text-decoration: none;
+        border-radius: 5px;
+        transition: background-color 0.3s ease;
+    }
+
+    .package-button:hover {
+        background-color: #ab7865;
+    }
 </style>
 
 @include('partials.header') 
 @include('partials.navbar')
 
-<div class="container-fluid wrapper" 
-    {{-- style="padding: 6rem 3rem 3rem 3rem" --}}
-    >
+<div class="container-fluid wrapper">
     <div class="about-banner">
         <div class="about-content">
             <div class="about-us">
@@ -142,32 +203,80 @@
                 </p>
                 <p>We can't wait to be a part of your journey! Thank you for considering [Queen-Dee-Photography] for your wedding photography needs. We're honored to be a part of your love story.
                 </p>
+                <h2 style="text-align: center;">Checkout Our Pricing!</h2>
             </div>
+
+            {{-- Pricing Section --}}
+            <section class="pricing-section">
+                <div class="pricing-package">
+                    <h2 class="package-name">Bronze Package</h2>
+                    <p class="package-description">Ideal for intimate weddings and elopements.</p>
+                    <div class="package-features">
+                        <ul>
+                            <li>Basic coverage</li>
+                            <li>Ceremony & key moments</li>
+                            <li>High-res edited images</li>
+                            <li>Basic coverage</li>
+                            <li>Ceremony & key moments</li>
+                            <li>High-res edited images</li>
+                        </ul>
+                    </div>
+                    <p class="package-price">Ksh.100,000</p>
+                    <a href="/contact" class="package-button">Book  Now</a>
+                </div>
+                <div class="pricing-package">
+                    <h2 class="package-name">Silver Package</h2>
+                    <p class="package-description">Timeless Elegance weddings</p>
+                    <div class="package-features">
+                        <ul>
+                            <li>Basic coverage</li>
+                            <li>Two photographers for additional angles and perspectives.</li>
+                            <li>Full day coverage ensures no moment is missed.</li>
+                            <li>A premium custom-designed photo album.</li>
+                            <li>Engagement session with prints included</li>
+                            
+                        </ul>
+                    </div>
+                    <p class="package-price">Ksh.150,000</p>
+                    <a href="/contact" class="package-button">Book  Now</a>
+                </div>
+                <div class="pricing-package">
+                    <h2 class="package-name">Bronze Package</h2>
+                    <p class="package-description">Ideal for intimate weddings and elopements.</p>
+                    <div class="package-features">
+                        <ul>
+                            <li>Basic coverage</li>
+                            <li>Ceremony & key moments</li>
+                            <li>High-res edited images</li>
+                            <li>Basic coverage</li>
+                            <li>Ceremony & key moments</li>
+                            <li>High-res edited images</li>
+                        </ul>
+                    </div>
+                    <p class="package-price">Ksh.200,000</p>
+                    <a href="/contact" class="package-button">Book Now</a>
+                </div>
+                <div class="pricing-package">
+                    <h2 class="package-name">Bronze Package</h2>
+                    <p class="package-description">Ideal for intimate weddings and elopements.</p>
+                    <div class="package-features">
+                        <ul>
+                        <li>Basic coverage</li>
+                            <li>Ceremony & key moments</li>
+                            <li>High-res edited images</li>
+                            <li>Basic coverage</li>
+                            <li>Ceremony & key moments</li>
+                            <li>High-res edited images</li>
+                        </ul>
+                    </div>
+                    <p class="package-price">ksh.250,000</p>
+                    <a href="/contact" class="package-button">Book Now</a>
+                </div>
+            </section>
 
         </div>
         
     </div>
-        
-    {{-- <div class="about-me container-fluid fade-in">
-        <div class="row">
-            <div class="col-sm-12 col-md-6 col-lg-3 d-flex align-items-center justify-content-center fade-in">
-                <div class="avatar-container">
-                    <img src="{{ asset('images/IMG_20230805_132014_640.webp') }}" class="img-fluid avatar" width="100%" alt=""
-                        srcset="">
-                </div>
-            </div>
-            <div class="col-sm-12 col-md-6 col-lg-9 align-items-center justify-content-center text-left fade-in">
-                <h2 class="first-header">About Me</h2>
-                <p class="about-me">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis delectus
-                    laboriosam tempora similique dolorem omnis reiciendis quibusdam eaque fuga rem enim, dicta eos
-                    aliquam inventore quae a distinctio pariatur quaerat.
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam vel asperiores laboriosam ut neque
-                    eos rem. Quibusdam dignissimos enim laboriosam a natus eveniet suscipit, voluptates officiis
-                    temporibus exercitationem recusandae possimus.
-                </p>
-            </div>
-        </div>
-    </div> --}}
 </div>
 
 @include('partials.footer')
