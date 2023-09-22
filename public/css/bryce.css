@@ -2,7 +2,8 @@
 
 
 * {
-    font-family:  Arial, Helvetica, sans-serif;
+
+    font-family: "Poppins", sans-serif;
     margin: 0;
     padding: 0;
     scroll-padding-top: 2rem;
@@ -11,7 +12,6 @@
     list-style: none;
     text-decoration: none;
 }
- 
 
 /* Navigation Bar */
 
@@ -20,6 +20,8 @@
     top: 0;
     padding-left: 40px;
     padding-right: 40px;
+
+    height: 5rem;
 
     background-color: black;
 }
@@ -99,11 +101,12 @@ html {
 }
 
 .container-fluid.wrapper {
-  
+    top: 100px;
     min-height: calc(100% - 70px);
     width: 100%;
     position: static;
     background-color: black;
+
     padding-top: 7%;
 }
 
@@ -118,6 +121,24 @@ html {
 }
 
 
+}
+
+.intro-content {
+    width: 100%;
+}
+
+.intro-img {
+    position: relative;
+    overflow: hidden;
+   
+}
+
+.intro-img img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+
+}
 
 .intro-img::before {
     content: "";
@@ -126,8 +147,9 @@ html {
     left: 0;
     width: 100%;
     height: 100%;
-    background: linear-gradient(to right,black,transparent);
-
+    background: linear-gradient(to right,
+            black,
+           transparent);
     pointer-events: none;
 }
 
@@ -144,13 +166,13 @@ html {
 }
 
 .description {
-   
     bottom: 100px;
     left: 0;
     position: absolute;
 }
 
 .description p {
+
     font-size: 2rem;
     color: #9f654f;
     font-kerning: 1px;
@@ -225,13 +247,11 @@ html {
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     object-fit: cover;
-
-   
-   
     overflow: hidden;
     position: relative;
    
 }
+
 
 .gallery-image:hover  img{
     cursor: pointer;
@@ -244,7 +264,7 @@ html {
     transition: transform 0.8s ease-in-out, filter 0.2s ease-in-out;
     width: 100%;
     height: 350px;
-    
+
     display: block;
 }
 
@@ -269,6 +289,7 @@ html {
 .about-me {
     padding: 30px;
     background: #1a1a1a;
+<
     position: relative;
 }
 .about-me .crown-top{
@@ -286,6 +307,7 @@ html {
     bottom: 0;
     right: 0;
 }
+
 .avatar-container {
     width: 350px;
     height: 350px;
@@ -320,7 +342,9 @@ h2 {
 
 }
 
+
 .intro-label h3,p {
+
     color: #fff;
    
 }
@@ -328,6 +352,7 @@ h2 {
     display: grid;
     
    
+
     grid-template-columns: repeat(auto-fill, minmax(250px, auto));
     gap: 2rem;
     justify-items: center;
@@ -348,6 +373,7 @@ h2 {
     transform: scale(1.05);
 
 }
+
 .wedding{
     color: #9f654f;
 
@@ -358,6 +384,7 @@ h2 {
     .gallery-image img{
         height: 400px;
     }
+
     .customer-rating{
        
         
@@ -366,11 +393,13 @@ h2 {
         
     
     }
+
     .gallery{
         grid-template-columns: repeat(auto-fill, minmax(300px, auto));
     }
     .what-wedo-grid{
         grid-template-columns: repeat(4, 1fr); 
+
 
     }
     
@@ -380,6 +409,7 @@ h2 {
 }
 
 .container-advert {
+
     
     background: linear-gradient(to right, rgba(17, 30, 34, 1), rgba(17, 30, 34, 0));
     min-height: 500px;
@@ -388,15 +418,16 @@ h2 {
     background-position: center;
     position: relative;
     padding-top: 30px;
-   
 }
 
 
 
 .advert-description {
+
    
     bottom: 40px;
     left: 50%;
+
     padding: 10px; 
  /* background-color: rgba(0, 0, 0, 0.7); */
     color: #fff;
@@ -404,6 +435,7 @@ h2 {
 
 .advert-description h3 {
     font-size: 1.5rem; /* Use relative font size */
+
     font-weight: bold;
 }
 
@@ -415,6 +447,7 @@ h2 {
 .advert-description p{
     color: white;
     font-size: large;
+
 }
 
 .customer-rating{
@@ -434,9 +467,11 @@ h2 {
     
 }
 
+
 .customer-card p{
     color: #ab7865;
 }
+
 
  /* Customer effect on scroll */
  .fade-in {
@@ -448,6 +483,7 @@ h2 {
     opacity: 1;
     transform: translateY(0);
 }
+
 
 /*Photography section */
 
@@ -471,6 +507,7 @@ h2 {
 .modal-content {
    
     width:auto;
+ 
     height:auto;
     margin: 0 auto;
     display: block;
@@ -486,11 +523,11 @@ h2 {
     cursor: pointer;
 }
 
-
 /* footer */
 
 footer {
     position: relative;
+
 
     width: 100%;
     bottom: 0%;
@@ -498,11 +535,56 @@ footer {
    
     color: #fff;
     /* Adjust the text color as needed */
+
     padding: 20px 0;
     text-align: left;
 }
 
 .footer-row {
     display: flex;
+
     justify-content: right;
 }
+
+
+.footer-socials {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/* Add a media query for screens less than 767px */
+@media (max-width: 767px) {
+    /* Center-align the entire footer content */
+    .footer-row {
+        justify-content: flex-start; /* You can use flex-start if desired */
+        text-align: center;
+        margin: 0 auto; /* Center-align the content horizontally */
+    }
+
+    /* Optionally, you can center-align the social icons as well */
+    .footer-socials {
+        justify-content: center;
+    }
+}
+
+
+.social-icon {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: #fff;
+    color: #9f654f;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+}
+
+.social-icon:hover {
+    background: #9f654f;
+    color: #fff;
+}
+

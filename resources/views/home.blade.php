@@ -5,11 +5,13 @@
 @include('partials.header')
 @include('partials.navbar')
 <div class="container-fluid wrapper">
+
     <div class="intro-content intro-img" id="intro-content">
         <div class="description ">
             <a class="special-p fade-in">Photography Is the Art of Capturing Memories</a>
 
             <p class="fade-in"> &quot Bring your wedding to life &quot</p>
+
         </div>
 
     </div>
@@ -20,6 +22,7 @@
 
             <p class="first-label fade-in text-md">Photo</p>
             <div class="inline fade-in">
+
                 <i class="fa-solid fa-camera" style="color: #ab7865;"></i>
 
                 <p> &nbsp Our Latest work &nbsp</p>
@@ -30,6 +33,7 @@
 
                 @foreach (range(1, 12) as $galleryNumber)
                 <div class="gallery-image fade-in">
+
 
                     <img src="" alt="" srcset="{{ asset('images/home/home_gallery'.$galleryNumber.'.webp') }}">
 
@@ -48,6 +52,7 @@
 
                 <a href="/photography"> <button class="btn explore-more">Explore more Button</button></a>
             </div>
+
         </div>
 
 
@@ -59,6 +64,7 @@
         <div class="about-me container-fluid fade-in">
             <div class="crown-top">
                 <img src="{{ asset('images/crown.png') }}" alt="" srcset="">
+
             </div>
             <div class="row">
                 <div class="col-sm-12 col-md-6 col-lg-3 d-flex align-items-center justify-content-center fade-in">
@@ -203,12 +209,28 @@
 
 
 
+
             </div>
 
 
+    <div class="container-fluid container-advert advert-img intro-img">
+
+
+        <div class="advert-description fade-in">
+            <h3>Full Wedding photography Services</h3>
+            <h2>Are you ready to make your wedding come to life?</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus pariatur praesentium
+                asperiores animi commodi maxime iusto ut? Expedita vero, nisi omnis deleniti itaque aperiam
+                error excepturi nesciunt amet sint assumenda.</p>
+
+            &nbsp
+            <a href="/contact"><button class="btn explore-more">Contact Us</button></a>
+
         </div>
+
     </section>
     <section class="advert fade-in">
+
 
         <div class="container-fluid container-advert advert-img intro-img">
 
@@ -226,7 +248,6 @@
 
                 &nbsp
                 <a href="/contact"> <button class="btn explore-more">Contact Us</button></a>
-
             </div>
 
 
@@ -269,11 +290,6 @@
 
     </div>
 </div>
-
-
-
-
-
 
 
 @include('partials.footer')
