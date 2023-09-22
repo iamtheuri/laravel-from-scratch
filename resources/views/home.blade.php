@@ -9,36 +9,35 @@
         <div class="intro-img">
             <img src="{{ asset('images/wedding.jpeg') }}" class="img-fluid" alt="" width="100%">
             <div class="description ">
-            <a class="special-p fade-in">Photography Is the Art of Capturing Memories</a>
+                <a class="special-p fade-in">Photography Is the Art of Capturing Memories</a>
 
-            <p class="fade-in"> &quot Bring your wedding to life &quot</p>
+                <p class="fade-in"> &quot Bring your wedding to life &quot</p>
+            </div>
         </div>
-        </div>
-       
+
     </div>
 
     <!-- latest work section -->
     <section class="latest-work  ">
         <div class="latest-work">
 
-        <p class="first-label fade-in text-md" >Photo</p>
-        <div class="inline fade-in">
-        <i class="fa-solid fa-camera fa-bounce" style="color: #a4a019;"></i>
+            <p class="first-label fade-in text-md">Photo</p>
+            <div class="inline fade-in">
+                <i class="fa-solid fa-camera fa-bounce" style="color: #a4a019;"></i>
 
-            <p> &nbsp Our Latest work &nbsp</p>
-            <i class="fa-solid fa-camera fa-bounce" style="color: #a4a019;"></i>
-        </div>
-        <div class="gallery ">
-            
-            
-                @for($i=0; $i<12 ;$i++) 
-                <div class="gallery-image fade-in">
+                <p> &nbsp Our Latest work &nbsp</p>
+                <i class="fa-solid fa-camera fa-bounce" style="color: #a4a019;"></i>
+            </div>
+            <div class="gallery ">
+
+
+                @for($i=0; $i<12 ;$i++) <div class="gallery-image fade-in">
                     <img src="{{ asset('images/wedding.jpeg') }}">
-                    </div>
-                @endfor
-           
+            </div>
+            @endfor
+
         </div>
-        
+
 
 
 </div>
@@ -73,12 +72,11 @@
                     temporibus exercitationem recusandae possimus.
                 </p>
                 <div class="socials-about">
+
                     <a class="" href=""><i class="fa-brands fa-square-facebook  fa-lg" style="color: #9f654f;"></i></a>
                     <a class=""><i class="fa-brands fa-square-instagram  fa-lg" style="color: #9f654f;"></i></a>
                     <a class=""><i class="fa-brands fa-linkedin  fa-lg" style="color: #9f654f;"></i></a>
                     <a class=""><i class="fa-brands fa-twitter  fa-lg" style="color: #9f654f;"></i></a>
-
-
 
                 </div>
             </div>
@@ -131,25 +129,25 @@
     </div>
 </section>
 <section class="advert fade-in">
-   
-        <div class="container-fluid container-advert advert-img intro-img">
-            
-               
-                <div class="advert-description fade-in">
-                    <h3>Full Wedding photography Services</h3>
-                    <h2>Are you ready to make your wedding come to life?</h2>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus pariatur praesentium
-                        asperiores animi commodi maxime iusto ut? Expedita vero, nisi omnis deleniti itaque aperiam
-                        error excepturi nesciunt amet sint assumenda.</p>
 
-                    &nbsp
-                    <button class="btn explore-more">Contact Us</button>
-               
-            </div>
+    <div class="container-fluid container-advert advert-img intro-img">
 
+
+        <div class="advert-description fade-in">
+            <h3>Full Wedding photography Services</h3>
+            <h2>Are you ready to make your wedding come to life?</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus pariatur praesentium
+                asperiores animi commodi maxime iusto ut? Expedita vero, nisi omnis deleniti itaque aperiam
+                error excepturi nesciunt amet sint assumenda.</p>
+
+            &nbsp
+            <a href="/contact"><button class="btn explore-more">Contact Us</button></a>
 
         </div>
-    
+
+
+    </div>
+
 </section>
 
 <section class="rating-section"></section>
@@ -187,17 +185,7 @@
 
 </div>
 
-
-
-
-
-
 </div>
-
-
-
-
-
 
 @include('partials.footer')
 

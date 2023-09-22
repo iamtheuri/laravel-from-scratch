@@ -19,7 +19,7 @@
     top: 0;
     padding-left: 40px;
     padding-right: 40px;
-
+    height: 5rem;
     background-color: black;
 }
 
@@ -349,7 +349,7 @@ h2 {
 .container-advert {
     background: linear-gradient(to right, rgba(17, 30, 34, 1), rgba(17, 30, 34, 0));
     min-height: 500px;
-    background-image: url('images/wedding.jpeg');
+    background-image: url('../images/wedding.jpeg');
     background-size: cover;
     background-position: center;
     position: relative;
@@ -403,21 +403,14 @@ h2 {
     transform: translateY(0);
 }
 
-
-
-    
-
 /* footer */
 
 footer {
     position: relative;
-
     width: 100%;
     bottom: 0%;
     background-color: black;
-   
     color: #fff;
-    /* Adjust the text color as needed */
     padding: 20px 0;
     text-align: left;
 }
@@ -425,4 +418,45 @@ footer {
 .footer-row {
     display: flex;
     justify-content: center;
+}
+
+.footer-socials {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+/* Add a media query for screens less than 767px */
+@media (max-width: 767px) {
+    /* Center-align the entire footer content */
+    .footer-row {
+        justify-content: flex-start; /* You can use flex-start if desired */
+        text-align: center;
+        margin: 0 auto; /* Center-align the content horizontally */
+    }
+
+    /* Optionally, you can center-align the social icons as well */
+    .footer-socials {
+        justify-content: center;
+    }
+}
+
+
+.social-icon {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: #fff;
+    color: #9f654f;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+}
+
+.social-icon:hover {
+    background: #9f654f;
+    color: #fff;
 }
