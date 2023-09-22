@@ -1,7 +1,7 @@
 <head>
     <link
         rel="stylesheet"
-        href="	https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
+        href="  https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"
     />
    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
 
@@ -19,32 +19,13 @@
         href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap"
         rel="stylesheet"
     />
-    
-    <link rel="stylesheet" href="{{ asset('bryce.css') }}">
-<script src="{{ asset('js/fadein.js') }}"></script>
+ 
+    {{-- Contacts Page Css --}}
+    <link rel="stylesheet" type="text/css" href="{{ asset('css/contact.css') }}">
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-<script>
-    $(document).ready(function() {
-        $(window).scroll(function() {
-            $('.fade-in').each(function() {
-                var topOfElement = $(this).offset().top;
-                var bottomOfElement = topOfElement + $(this).outerHeight();
-                var bottomOfScreen = $(window).scrollTop() + $(window).height();
-
-                if (bottomOfScreen > topOfElement) {
-                    $(this).addClass('fade-in-visible');
-                } else {
-                    $(this).removeClass('fade-in-visible');
-                }
-            });
-        });
-    });
-</script>
-
+    <script src="{{ asset('js/fadein.js') }}" async defer></script>
+    {{-- Home Page Css --}}
+    <link rel="stylesheet" href="{{ asset('css/bryce.css') }}">
     
-  
-   
 
-    
 </head>
-
