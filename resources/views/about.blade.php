@@ -163,6 +163,7 @@
                     </p>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-3 d-flex align-items-center justify-content-center order-1 order-lg-2">
+
                     <div class="avatar-container">
                         <img src="{{ asset('images/IMG_20230805_132014_640.webp') }}" class="img-fluid avatar" width="100%">
                     </div>
@@ -172,6 +173,7 @@
             <div class="row" style="padding: 0rem 5rem 0rem 3rem; background: #1a1a1a;">
 
                 <div class="col-sm-12 col-md-6 col-lg-3 d-flex align-items-center justify-content-center">
+
                     <div class="avatar-container">
                         <img src="{{ asset('images\_42A9419.webp') }}" class="img-fluid avatar" width="100%">
                     </div>
@@ -214,6 +216,7 @@
                             commitment to excellence.
                         </p>
                         <h2>Let's Chat!</h2>
+
                         <p>
                             We can't wait to learn more about you and your love story. Whether you're planning an intimate elopement or
                             a grand celebration, we're here to make your photography dreams come true. Let's connect, have a cup of

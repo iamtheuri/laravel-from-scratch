@@ -70,7 +70,8 @@
                             <input type="submit" id="submit-button">
                         </div>
 
-                        <div id="contactModal" class="modal">
+
+                        <div id="contactModal" class="contact-modal">
                             <div class="contact-modal-content">
                                 <span class="close" id="close-modal" style="font-weight: 900; font-size: 1.5rem;">&times;</span>
                                 <p style="color: black; font-weight: 900; font-size: 1.5rem; padding: 1.5rem;">Thank you for contacting us, we'll get in touch with you asap!</p>
