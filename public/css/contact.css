@@ -1,5 +1,4 @@
 .contact{
-    top: 30px;
     position: relative;
     min-height: 100vh;
     display: flex;
@@ -151,8 +150,8 @@
         width: 100%;
     }
 }
-/* Modal Styling */
-.modal {
+/* contact-modal Styling */
+.contact-modal {
     display: none;
     position: fixed;
     z-index: 1;
@@ -164,8 +163,8 @@
     background-color: rgba(0,0,0,0.5);
 }
 
-/* Modal content */
-.modal-content {
+/* contact-modal content */
+.contact-modal-content {
     background-color: #fefefe;
     margin: 15% auto;
     padding: 20px;

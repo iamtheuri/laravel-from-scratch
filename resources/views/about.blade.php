@@ -151,7 +151,7 @@
                         </p>
                     </section>
                 </div>
-                <div class="col-lg-3 order-md-2 order-1">
+                <div class="col-lg-3 order-md-2 order-1 d-flex">
                     <div class="avatar-container">
                         <img src="{{ asset('images/IMG_20230805_132014_640.webp') }}" class="img-fluid avatar" width="100%">
                     </div>
@@ -159,12 +159,12 @@
             </div>
 
             <div class="row" style="padding: 5rem;">
-                <div class="col-lg-3 order-lg-1">
+                <div class="col-sm-12 col-md-6 col-lg-3  ">
                     <div class="avatar-container">
                         <img src="{{ asset('images\_42A9419.webp') }}" class="img-fluid avatar" width="100%">
                     </div>
                 </div>
-                <div class="col-lg-9 order-lg-2 about-article">
+                <div class="col-sm-12 col-md-6 col-lg-9 about-article">
                     <section>
                         <h2>Our Approach</h2>
                         <p>
