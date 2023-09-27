@@ -500,6 +500,8 @@ h2 {
 
 /* Add CSS styles for modal and carousel here */
 .modal {
+    position: relative;
+  
     display: none;
     position: fixed;
     z-index: 1;
@@ -515,6 +517,7 @@ h2 {
 }
 
 .carousel {
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -532,7 +535,9 @@ h2 {
     position: absolute;
     top: 0;
     right: -50px;
+
     color: white;
+
     font-size: 40px;
     cursor: pointer;
     z-index: 1;

@@ -3,6 +3,7 @@
 @include('partials.header')
 @include('partials.navbar')
 
+
 <div class="container-fluid wrapper" style="padding-top: 5rem">
 
     <section class="image-Gallery container">
@@ -35,6 +36,7 @@
             <button id="prev" class="prev" onclick="prevSlide()">&#10094;</button>
             <button class="next" onclick="nextSlide()">&#10095;</button>
         </div>
+
     </div>
 
 
