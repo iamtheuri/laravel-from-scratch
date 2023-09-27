@@ -23,6 +23,11 @@
     max-width: 800px;
     text-align: center;
 }
+.contact .content h1{
+    padding: 1rem;
+    color: #9f654f;
+    margin-top: 2rem;
+}
 .contact .content h3{
     font-size: 36px;
     font-weight: 500;
@@ -163,7 +168,8 @@
     background-color: rgba(0,0,0,0.5);
 }
 
-/* contact-modal content */
+/* Modal content */
+
 .contact-modal-content {
     background-color: #fefefe;
     margin: 15% auto;

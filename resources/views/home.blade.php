@@ -134,14 +134,14 @@ I'm not just your photographer; I'm your memory maker, your storyteller, and you
 
                     <i class="fa-solid fa-star-of-life fa-xl" style="color: #796120;"></i>
                     <h3 class="wedding">Bronze Package</h3>
-                    
+
                     <p class="wedding-desc">
                         Ideal for couples seeking basic coverage. </p>
-                        <p class="wedding-desc">
+                    <p class="wedding-desc">
                         Coverage of the ceremony and select key moments.</p>
-                        <p class="wedding-desc">
+                    <p class="wedding-desc">
                         Beautifully edited high-resolution images. </p>
-                        <p class="wedding-desc">
+                    <p class="wedding-desc">
                         Perfect for intimate weddings and elopements
                     </p>
                     <a href="/photography"><button class="btn explore-more" data-bs-target="/">More Details</button></a>
@@ -154,16 +154,17 @@ I'm not just your photographer; I'm your memory maker, your storyteller, and you
 
                     <i class="fa-solid fa-star-of-life fa-xl" style="color: #796120;"></i>
                     <h3 class="wedding">Silver Package</h3>
-                    
+
                     <p class="wedding-desc">
-                    Extended coverage capturing more of your day.. </p>
-                        <p class="wedding-desc">
+                        Extended coverage capturing more of your day.. </p>
+                    <p class="wedding-desc">
                         Pre-ceremony and reception coverage.</p>
-                        <p class="wedding-desc">
+                    <p class="wedding-desc">
                         Enhanced post-processing for stunning images </p>
-                        <p class="wedding-desc">
+                    <p class="wedding-desc">
                         A complimentary engagement photo session.
-                    <a href="/photography"><button class="btn explore-more" data-bs-target="/">More Details</button></a>
+                        <a href="/photography"><button class="btn explore-more" data-bs-target="/">More
+                                Details</button></a>
 
 
 
@@ -173,14 +174,14 @@ I'm not just your photographer; I'm your memory maker, your storyteller, and you
 
                     <i class="fa-solid fa-star-of-life fa-xl" style="color: #796120;"></i>
                     <h3 class="wedding">Gold Package</h3>
-                    
+
                     <p class="wedding-desc">
-                    Comprehensive coverage from preparations to the grand exit.. </p>
-                        <p class="wedding-desc">
+                        Comprehensive coverage from preparations to the grand exit.. </p>
+                    <p class="wedding-desc">
                         A premium custom-designed photo album.</p>
-                        <p class="wedding-desc">
+                    <p class="wedding-desc">
                         Full day coverage ensures no moment is missed </p>
-                        <p class="wedding-desc">
+                    <p class="wedding-desc">
                         Engagement session with prints included.
                     </p>
                     <a href="/photography"><button class="btn explore-more" data-bs-target="/">More Details</button></a>
@@ -193,14 +194,14 @@ I'm not just your photographer; I'm your memory maker, your storyteller, and you
 
                     <i class="fa-solid fa-star-of-life fa-xl" style="color: #796120;"></i>
                     <h3 class="wedding">Platinum Package</h3>
-                    
+
                     <p class="wedding-desc">
-                    The ultimate wedding photography experience </p>
-                        <p class="wedding-desc">
+                        The ultimate wedding photography experience </p>
+                    <p class="wedding-desc">
                         CDrone photography for breathtaking aerial shots..</p>
-                        <p class="wedding-desc">
+                    <p class="wedding-desc">
                         Priority booking and personal consultation.. </p>
-                        <p class="wedding-desc">
+                    <p class="wedding-desc">
                         A stunning canvas print of your favorite shot.
                     </p>
                     <a href="/photography"><button class="btn explore-more" data-bs-target="/">More Details</button></a>
@@ -209,9 +210,7 @@ I'm not just your photographer; I'm your memory maker, your storyteller, and you
     </section>
     <section class="advert fade-in">
 
-
         <div class="container-fluid container-advert advert-img intro-img">
-
 
             <div class="advert-description fade-in text-center">
 
@@ -221,8 +220,6 @@ I'm not just your photographer; I'm your memory maker, your storyteller, and you
                     through stunning photographs. </p>
                 <p>Let us turn your love story into a visual masterpiece that you'll cherish for a lifetime. </p>
                 <p> Contact us today to book your wedding photography session and secure your date.</p>
-
-
 
                 &nbsp
                 <a href="/contact"> <button class="btn explore-more">Contact Us</button></a>

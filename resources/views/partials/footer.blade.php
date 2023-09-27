@@ -1,5 +1,4 @@
 <footer class="footer">
-
 <div class="quicklinks">
     
 </div>
@@ -32,9 +31,7 @@
                     <a class="social-icon" href="#"><i class="fa-brands fa-linkedin fa-lg"></i></a>
                     <a class="social-icon" href="#"><i class="fa-brands fa-twitter fa-lg"></i></a>
                 </div>
-
             </div>
-
         </div>
     </div>
 </footer>

@@ -5,11 +5,11 @@
 
 
 
-    <div class="container-fluid wrapper"> 
+    <div class="container-fluid wrapper" style="padding-top: 2rem"> 
         
 
 
-        <section class="contact">
+        <section class="contact" style="background: #020403">
 
             <div class="content">
 
@@ -27,7 +27,7 @@
                         </div>
                         <div class="text">
                             <h3>Address</h3>
-                            <p>Opposite KCB Building, Along Magadi Road, Ongata Rongai, 00511, Kajiado, Kenya</p>
+                            <p>Opposite KCB Building, <br> Along Magadi Road, <br>Ongata Rongai, 00511, <br>Kajiado, Kenya</p>
                         </div>
                     </div>
                     <div class="box">
@@ -36,7 +36,7 @@
                         </div>
                         <div class="text">
                             <h3>Phone</h3>
-                            <p>+254 712 345 678</p>
+                            <p>+254 722 486 897</p>
                         </div>
                     </div>
                     <div class="box">
@@ -69,6 +69,7 @@
                         <div class="input-box">
                             <input type="submit" id="submit-button">
                         </div>
+
 
                         <div id="contactModal" class="contact-modal">
                             <div class="contact-modal-content">

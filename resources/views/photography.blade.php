@@ -4,7 +4,8 @@
 @include('partials.navbar')
 
 
-    <div class="container-fluid wrapper">
+
+    <div class="container-fluid wrapper " style="padding-top:5rem">
 
     
 
@@ -37,8 +38,9 @@
 
 </section>
 <div id="myModal" class="modal">
-    <span class="close" onclick="closeModal()">&times;</span>
+    
     <div class="carousel">
+    <div class="modal-close" onclick="closeModal()">&times;</div>
         <img id="modal-content" class="modal-content" src="">
         <button  id ="prev"class="prev" onclick="prevSlide()">&#10094;</button>
         <button class="next" onclick="nextSlide()">&#10095;</button>
