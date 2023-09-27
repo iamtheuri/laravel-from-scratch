@@ -106,7 +106,6 @@ html {
     width: 100%;
     position: static;
     background-color: black;
-
     padding-top: 7%;
 }
 
@@ -119,10 +118,6 @@ html {
     position: relative;
     width: 100%;
 }
-
-
-}
-
 .intro-content {
     width: 100%;
 }
@@ -289,7 +284,6 @@ html {
 .about-me {
     padding: 30px;
     background: #1a1a1a;
-<
     position: relative;
 }
 .about-me .crown-top{
@@ -527,22 +521,17 @@ h2 {
 
 footer {
     position: relative;
-
-
     width: 100%;
     bottom: 0%;
     background-color: black;
-   
     color: #fff;
     /* Adjust the text color as needed */
-
     padding: 20px 0;
     text-align: left;
 }
 
 .footer-row {
     display: flex;
-
     justify-content: right;
 }
 

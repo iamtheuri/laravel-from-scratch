@@ -5,11 +5,11 @@
 
 
 
-    <div class="container-fluid wrapper"> 
+    <div class="container-fluid wrapper" style="padding-top: 0%"> 
         
 
 
-        <section class="contact">
+        <section class="contact" style="background: #020403">
 
             <div class="content">
 
@@ -27,7 +27,7 @@
                         </div>
                         <div class="text">
                             <h3>Address</h3>
-                            <p>Opposite KCB Building, Along Magadi Road, Ongata Rongai, 00511, Kajiado, Kenya</p>
+                            <p>Opposite KCB Building, <br> Along Magadi Road, <br>Ongata Rongai, 00511, <br>Kajiado, Kenya</p>
                         </div>
                     </div>
                     <div class="box">
@@ -36,7 +36,7 @@
                         </div>
                         <div class="text">
                             <h3>Phone</h3>
-                            <p>+254 712 345 678</p>
+                            <p>+254 722 486 897</p>
                         </div>
                     </div>
                     <div class="box">
@@ -70,8 +70,8 @@
                             <input type="submit" id="submit-button">
                         </div>
 
-                        <div id="myModal" class="modal">
-                            <div class="modal-content">
+                        <div id="contactModal" class="modal">
+                            <div class="contact-modal-content">
                                 <span class="close" id="close-modal" style="font-weight: 900; font-size: 1.5rem;">&times;</span>
                                 <p style="color: black; font-weight: 900; font-size: 1.5rem; padding: 1.5rem;">Thank you for contacting us, we'll get in touch with you asap!</p>
                             </div>
@@ -86,7 +86,7 @@
 
 <script>
     // Get modal and button elements
-    var modal = document.getElementById("myModal");
+    var modal = document.getElementById("contactModal");
     var btn = document.getElementById("submit-button");
     var closeBtn = document.getElementById("close-modal");
     var contactForm = document.getElementById("contact-form");
