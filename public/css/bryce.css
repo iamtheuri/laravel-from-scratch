@@ -535,8 +535,9 @@ h2 {
     position: absolute;
     top: 0;
     right: -50px;
-   
-    color: #fff;
+
+    color: white;
+
     font-size: 40px;
     cursor: pointer;
     z-index: 1;
