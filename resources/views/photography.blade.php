@@ -28,12 +28,7 @@
 
 <!-- The Modal -->
 
-<div id="myModal" class="modal">
 
-    <span class="close" onclick="closeModal()">&times;</span>
-    <img id="modal-content" class="modal-content" src="">
-    
-</div>
 
 
 
@@ -41,10 +36,19 @@
 </div>
 
 </section>
+<div id="myModal" class="modal">
+    <span class="close" onclick="closeModal()">&times;</span>
+    <div class="carousel">
+        <img id="modal-content" class="modal-content" src="">
+        <button  id ="prev"class="prev" onclick="prevSlide()">&#10094;</button>
+        <button class="next" onclick="nextSlide()">&#10095;</button>
+    </div>
+</div>
+
 
 </div>
 @include('partials.footer')
 
-<!-- <script src="{{asset('js/fadein.js')}}"></script> -->
+<script src="{{asset('js/clickableImages.js')}}"></script>
 
 </html>

@@ -33,9 +33,11 @@
 
                 @foreach (range(1, 12) as $galleryNumber)
                 <div class="gallery-image fade-in">
+                    <a href="/photography">
 
 
                     <img src="" alt="" srcset="{{ asset('images/home/home_gallery'.$galleryNumber.'.webp') }}">
+                    </a>
 
 
 
@@ -75,13 +77,16 @@
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-9 align-items-center justify-content-center text-left fade-in">
                     <h2 class="first-header">About Me</h2>
-                    <p class="about-me">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Officiis delectus
-                        laboriosam tempora similique dolorem omnis reiciendis quibusdam eaque fuga rem enim, dicta eos
-                        aliquam inventore quae a distinctio pariatur quaerat.
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Totam vel asperiores laboriosam ut
-                        neque
-                        eos rem. Quibusdam dignissimos enim laboriosam a natus eveniet suscipit, voluptates officiis
-                        temporibus exercitationem recusandae possimus.
+                    <p class="about-me">
+                        
+                        Allow me to introduce myself—I'm Daisy Wanjiru. I am a Kenyan Nairobi Based wedding and lifestyle photographer with a passionate heart for capturing moments and love stories.I'm all about capturing the warmth of your special day. I don't just snap photos; I paint a picture of your love story with every click of my camera.
+My passion lies in capturing those raw, heartfelt moments that make your wedding day unique. I have an artist's eye for detail, and I'm on a mission to preserve the emotions that fill the air on this joyous occasion.
+  My goal is to blend seamlessly into the background, ensuring that your smiles, your tears of happiness, and those whispered promises are all beautifully documented.
+
+I pride myself on creating a comfortable and relaxed atmosphere. Even the most camera-shy couples find themselves at ease in my presence. I have all the patience in the world, so there's no rush—I'm here to capture your love story as it naturally unfolds.
+
+
+I'm not just your photographer; I'm your memory maker, your storyteller, and your friend. Let's embark on this journey together, and I'll ensure that your wedding day is captured with warmth and heart, ready to be relived for years to come.
                     </p>
                     <div class="socials-about">
                         <a class="" href=""><i class="fa-brands fa-square-facebook  fa-lg"
@@ -199,35 +204,8 @@
                         A stunning canvas print of your favorite shot.
                     </p>
                     <a href="/photography"><button class="btn explore-more" data-bs-target="/">More Details</button></a>
-
-
-
-
                 </div>
-
-
-
-
-
-
             </div>
-
-
-    <div class="container-fluid container-advert advert-img intro-img">
-
-
-        <div class="advert-description fade-in">
-            <h3>Full Wedding photography Services</h3>
-            <h2>Are you ready to make your wedding come to life?</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus pariatur praesentium
-                asperiores animi commodi maxime iusto ut? Expedita vero, nisi omnis deleniti itaque aperiam
-                error excepturi nesciunt amet sint assumenda.</p>
-
-            &nbsp
-            <a href="/contact"><button class="btn explore-more">Contact Us</button></a>
-
-        </div>
-
     </section>
     <section class="advert fade-in">
 
@@ -270,21 +248,21 @@
 
         </div>
         <div class="brief-card col customer-card">
-            <h2>100</h2>
+            <h2>50</h2>
             <h2>+</h2>
-            <p>Happy Customers</p>
+            <p>Weddings Covered</p>
 
         </div>
         <div class="brief-card col customer-card">
-            <h2>20</h2>
+            <h2>10</h2>
             <h2>+</h2>
             <p>Professional Team</p>
 
         </div>
         <div class="brief-card col customer-card">
-            <h2>100</h2>
+            <h2>5</h2>
             <h2>+</h2>
-            <p>Happy Customers</p>
+            <p>Years of Experience</p>
 
         </div>
 

@@ -70,8 +70,8 @@
                             <input type="submit" id="submit-button">
                         </div>
 
-                        <div id="myModal" class="modal">
-                            <div class="modal-content">
+                        <div id="contactModal" class="contact-modal">
+                            <div class="contact-modal-content">
                                 <span class="close" id="close-modal" style="font-weight: 900; font-size: 1.5rem;">&times;</span>
                                 <p style="color: black; font-weight: 900; font-size: 1.5rem; padding: 1.5rem;">Thank you for contacting us, we'll get in touch with you asap!</p>
                             </div>
@@ -86,7 +86,7 @@
 
 <script>
     // Get modal and button elements
-    var modal = document.getElementById("myModal");
+    var modal = document.getElementById("contactModal");
     var btn = document.getElementById("submit-button");
     var closeBtn = document.getElementById("close-modal");
     var contactForm = document.getElementById("contact-form");

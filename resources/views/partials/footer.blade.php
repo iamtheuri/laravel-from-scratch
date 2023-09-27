@@ -1,20 +1,30 @@
 <footer class="footer">
 
+<div class="quicklinks">
+    
+</div>
+<h4 style="padding-left:10px">Contact Us</h4>
+
     <div class="container-fluid">
         <div class="row footer-row">
-            <div class="col-md-5">
-                <h4>Contact Us</h4>
+            <div class="address col-sm-3 col-md-3 col-lg-3">
+                
                 <p>
-                    Opposite KCB Building, Along Magadi Road, Ongata Rongai, 00511, Kajiado, Kenya
-                </p>
-                <p>
-                    Email: info@example.com
-                </p>
-                <p>
-                    Phone: +1 (123) 456-7890
+                   
+                     <p> Ongata Rongai, </p>
+                     <p> 00511, Kajiado, </P>
+                    
                 </p>
             </div>
-            <div class="col-md-5">
+            <div class="phone col-sm-3  col-md-3 col-lg-3"><p>
+                    Phone: +254722 486897
+                </p></div>
+            <div class="mail col-sm-43  col-md-3 col-lg-3">
+            <p>
+                    Email: queendeephotography@gmail.com
+                </p>
+            </div>
+            <div class="socials col col-sm-3 col-md-3 col-lg-3">
                 <h4>Follow Us</h4>
                 <div class="footer-socials">
                     <a class="social-icon" href="#"><i class="fa-brands fa-square-facebook fa-lg"></i></a>
