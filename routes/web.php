@@ -30,3 +30,16 @@ Route::get('/photography', function () {
 // });
 Route::get('/contact', [ContactController::class, 'show'])->name('contact.show');
 Route::post('/contact', [ContactController::class, 'submit'])->name('contact.submit');
+
+Route::get('/light-theme', function () {
+    return view('light-theme.home');
+});
+Route::get('/light-theme/about', function () {
+    return view('light-theme.about');
+});
+Route::get('/light-theme/contact', function () {
+    return view('light-theme.contact');
+});
+Route::get('/light-theme/photography', function () {
+    return view('light-theme.photography');
+});
