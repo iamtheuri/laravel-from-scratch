@@ -1,37 +1,38 @@
-<footer class="footer">
-<div class="quicklinks">
-    
-</div>
-<h4 style="padding-left:10px">Contact Us</h4>
+<!-- Footer Start -->
 
-    <div class="container-fluid">
-        <div class="row footer-row">
-            <div class="address col-sm-3 col-md-3 col-lg-3">
-                
-                <p>
-                   
-                     <p> Ongata Rongai, </p>
-                     <p> 00511, Kajiado, </P>
-                    
-                </p>
+<div class="container-fluid footer position-relative text-white-50 mt-5 py-5 px-4 px-lg-5 wow fadeIn" 
+    data-wow-delay="0.1s" 
+    {{-- style="background: #121212" --}}
+    style="border-top: 2px solid #121212; background: #00000;"
+>
+    <div class="row g-5 py-5">
+        <div class="col-lg-6 pe-lg-5">
+            <a href="#" class="navbar-brand">
+                <h1 style="color: #ab7865;">Queen Dee Wedding</h1>
+            </a>
+                <p><i class="fa fa-map-marker-alt me-2"></i>Ongata Rongai, Kajiado, Kenya</p>
+            <p><i class="fa fa-phone-alt me-2"></i>+254 712 394 055</p>
+            <p><i class="fa fa-envelope me-2"></i>queendeephotography@gmail.com</p>
+            <div class="d-flex justify-content-start mt-4">
+                <a class="btn btn-square footer-socials me-2" href="https://www.instagram.com/weddingsbyqueendee/">
+                    <i class="fab fa-instagram" style="font-size: 1.5rem;"></i> 
+                        &nbsp;weddingsbyqueendee 
+                </a>
             </div>
-            <div class="phone col-sm-3  col-md-3 col-lg-3"><p>
-                    Phone: +254722 486897
-                </p></div>
-            <div class="mail col-sm-43  col-md-3 col-lg-3">
-            <p>
-                    Email: queendeephotography@gmail.com
-                </p>
-            </div>
-            <div class="socials col col-sm-3 col-md-3 col-lg-3">
-                <h4>Follow Us</h4>
-                <div class="footer-socials">
-                    <a class="social-icon" href="#"><i class="fa-brands fa-square-facebook fa-lg"></i></a>
-                    <a class="social-icon" href="#"><i class="fa-brands fa-square-instagram fa-lg"></i></a>
-                    <a class="social-icon" href="#"><i class="fa-brands fa-linkedin fa-lg"></i></a>
-                    <a class="social-icon" href="#"><i class="fa-brands fa-twitter fa-lg"></i></a>
-                </div>
+        </div>
+        <div class="col-lg-6 ps-lg-5">
+            <div class="row g-5">
+                <div class="col-sm-6">
+                    <h4 class="text-light mb-4">Quick Links</h4>
+                    <a class="btn btn-link" href="/">Home</a>
+                    <a class="btn btn-link" href="/about">About Us</a>
+                    <a class="btn btn-link" href="/photography">Gallery</a>
+                    <a class="btn btn-link" href="/contact">Book A Session</a>
+                </div>                
             </div>
         </div>
     </div>
-</footer>
+</div>
+
+<!-- Footer End -->
+

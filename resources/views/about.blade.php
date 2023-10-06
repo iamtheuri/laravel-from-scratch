@@ -201,7 +201,7 @@
                     <div class="why-choose-us">
                         <h2>Why Choose Us</h2>
                         <p class="">
-                            <strong>Experience:</strong> With over X years of experience, we've photographed countless weddings,
+                            <strong>Experience:</strong> With over 10 years of experience, we've photographed countless weddings,
                             each one unique and special in its own way. We know how to anticipate moments, adapt to different
                             environments, and tell your story with grace and artistry.
                         </p>

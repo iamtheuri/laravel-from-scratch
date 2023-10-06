@@ -27,6 +27,9 @@
     
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script src="{{ asset('js/fadein.js') }}"></script>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="{{asset('crown.ico')}}">
 </head>
 
 
