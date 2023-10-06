@@ -27,7 +27,7 @@
 }
 
 .nav-link {
-    color: white;
+    color: white !important;
     font-size: 1.2rem;
 }
 
@@ -567,45 +567,7 @@ h2 {
     right: 10px;
 }
 
-/* footer */
 
-footer {
-    position: relative;
-    width: 100%;
-    bottom: 0%;
-    background-color: black;
-    color: #fff;
-    /* Adjust the text color as needed */
-    padding: 20px 0;
-    text-align: left;
-}
-
-.footer-row {
-    display: flex;
-    justify-content: right;
-}
-
-
-.footer-socials {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
-}
-
-/* Add a media query for screens less than 767px */
-@media (max-width: 767px) {
-    /* Center-align the entire footer content */
-    .footer-row {
-        justify-content: flex-start; /* You can use flex-start if desired */
-        text-align: center;
-        margin: 0 auto; /* Center-align the content horizontally */
-    }
-
-    /* Optionally, you can center-align the social icons as well */
-    .footer-socials {
-        justify-content: center;
-    }
-}
 
 
 .social-icon {

@@ -3,6 +3,7 @@
 
 
 @include('partials.header')
+@include('partials.navbar')
 
 <head>
         <!-- Libraries Stylesheet -->
@@ -25,7 +26,7 @@
 <body>
     
 
-@include('partials.navbar')
+
 <div class="container-fluid wrapper">
 
     <div class="intro-content intro-img" id="intro-content">

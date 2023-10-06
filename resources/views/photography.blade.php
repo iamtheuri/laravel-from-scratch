@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
+@include('partials.header')
+@include('partials.navbar')
 
 <head>
     <meta charset="utf-8">
@@ -29,6 +31,7 @@
     <link href="{{asset('css/style.css')}}" rel="stylesheet">
 </head>
 <body class="bg-dark">
+
     
 <!-- Header Start -->
 <div class="container-fluid hero-header bg-dark py-5 mb-5">
@@ -271,6 +274,8 @@
         </div>
     </div>
     <!-- Project End -->
+
+    @include('partials.footer')
 
      <!-- JavaScript Libraries -->
      <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>

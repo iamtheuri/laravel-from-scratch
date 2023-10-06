@@ -1,8 +1,8 @@
 <!-- Footer Start -->
 
-<div class="container-fluid footer position-relative text-white-50 mt-5 py-5 px-4 px-lg-5 wow fadeIn" 
+<div class="container-fluid footer position-relative text-white-50 mt-5 py-5 px-4 px-lg-5  fadeIn" 
     data-wow-delay="0.1s" 
-    {{-- style="background: #121212" --}}
+   
     style="border-top: 2px solid #121212; background: #00000;"
 >
     <div class="row g-5 py-5">
@@ -16,7 +16,7 @@
             <div class="d-flex justify-content-start mt-4">
                 <a class="btn btn-square footer-socials me-2" href="https://www.instagram.com/weddingsbyqueendee/">
                     <i class="fab fa-instagram" style="font-size: 1.5rem;"></i> 
-                        &nbsp;weddingsbyqueendee 
+                        &nbsp weddingsbyqueendee 
                 </a>
             </div>
         </div>
