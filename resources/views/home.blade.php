@@ -85,6 +85,7 @@
     <!-- About End -->
 
     <section class="latest-work  ">
+    <div class="latest-work">
     <div class="container-xxl py-5 pb-0">
         <div class="container">
             <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
@@ -190,6 +191,7 @@
             </div>
         </div>
     </div>
+</div>
 
     </section>
 
@@ -292,7 +294,7 @@
 
             <div class="advert-description fade-in text-center">
 
-                <h3>Full Wedding photography Services</h3>
+                <h3 class="text-primary">Full Wedding photography Services</h3>
                 <h2>Are you ready to make your wedding come to life?</h2>
                 <p style="text-align:center">Don't miss the chance to relive the joy and romance of your wedding day
                     through stunning photographs. </p>

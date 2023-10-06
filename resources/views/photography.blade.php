@@ -256,7 +256,7 @@
                             </a>
                         </div>
                         <div class="col-12">
-                        <a class="project-title h5 mb-0" href="img/project-8.jpg" data-lightbox="project">
+                        <a class="project-title h5 mb-0" href="{{asset('images/gallery/gallery21.webp')}}" data-lightbox="project">
                                
                             <div class="project-item">
                                 <img class="img-fluid" src="{{asset('images/gallery/gallery21.webp')}}" alt="">
