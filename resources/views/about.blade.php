@@ -11,7 +11,7 @@
     .about-banner{
         width: 100%;
         min-height: 20vh;
-        background-image: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url("images/_42A8299.webp");
+        background-image: linear-gradient(rgba(0,0,0,0.65), rgba(0,0,0,0.65)), url("images/intro-img.webp");
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
