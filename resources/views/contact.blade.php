@@ -80,6 +80,17 @@
                     </form>
                 </div>
             </div>
+            <!-- Google Map Start -->
+            <div class="container-xxl py-5 px-0 wow fadeInUp" data-wow-delay="0.1s">
+                <h2 class="text-center">Locate Us</h2>
+                <iframe class="w-100 mb-n2" style="height: 450px;"
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.6337989026847!2d36.7599689759169!3d-1.3961859985906278!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f05425915ef95%3A0xbcee11752be12550!2sDen-Eric&#39;s%20Classic%20By%20Shelter%20Link%20Enterprises%20Ltd!5e0!3m2!1sen!2ske!4v1695800344353!5m2!1sen!2ske" 
+                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"  referrerpolicy="no-referrer-when-downgrade"
+                    frameborder="0" allowfullscreen="" aria-hidden="false" tabindex="0"
+                    >
+                </iframe>
+            </div>
+            <!-- Google Map End -->
         </section>
         
         
