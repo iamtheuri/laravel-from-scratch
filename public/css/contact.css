@@ -230,22 +230,22 @@
     content: "\f105";
     font-family: "Font Awesome 5 Free";
     font-weight: 900;
-    color: rgba(255, 255, 255, .5);
+    color: rgba(255, 255, 255, .5) !important;
     margin-right: 10px;
 }
 
 .footer .btn.btn-link:hover {
-    color: var(--primary);
-    letter-spacing: 1px;
-    box-shadow: none;
+    color: var(--primary) !important;
+    letter-spacing: 1px !important;
+    box-shadow: none !important;
 }
 .footer-socials {
-    background: #9f654f;
-    color: #fff;
+    background: #9f654f !important;
+    color: #fff !important;
 }
 .footer-socials:hover {
-    background: #ab7865;
-    color: #fff;
+    background: #ab7865 !important;
+    color: #fff !important;
 }
 /* Footer End */
 

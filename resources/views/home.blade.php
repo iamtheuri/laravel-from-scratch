@@ -201,7 +201,7 @@
         <div class="what-we-do container-fluid">
             <div class="intro-what-we fade-in">
                 <div class="intro-label">
-                    <h3 class="intro-photo">Photography</h3>
+                    <h3 class="intro-photo text-primary"> Wedding Photography</h3>
                     <div class="inline">
                         <i class="fa-solid fa-star-of-life fa-xl" style="color: #796120;"></i>
                         <p> &nbsp What We Do &nbsp</p>
