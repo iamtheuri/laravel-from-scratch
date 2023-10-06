@@ -192,60 +192,60 @@
 /* Footer start */
 @media (min-width: 992px) {
     .footer::after {
-        position: absolute;
-        content: "";
-        width: 1px;
-        height: 100%;
-        top: 0;
-        left: 50%;
-        background: var(--secondary);
+        position: absolute !important;
+        content: "" !important;
+        width: 1px !important;
+        height: 100% !important;
+        top: 0 !important;
+        left: 50% !important;
+        background: var(--secondary) !important;
     }
 }
 
 .footer-shape::before {
-    position: absolute;
-    content: "";
-    width: 80px;
-    height: 100%;
-    top: 0;
-    left: -40px;
-    background: var(--secondary);
-    transform: skew(40deg);
+    position: absolute !important;
+    content: "" !important;
+    width: 80px !important;
+    height: 100% !important;
+    top: 0 !important;
+    left: -40px !important;
+    background: var(--secondary) !important;
+    transform: skew(40deg) !important;
 }
 
 .footer .btn.btn-link {
-    display: block;
-    margin-bottom: 5px;
-    padding: 0;
-    text-align: left;
-    color: rgba(255, 255, 255, .5);
-    font-weight: normal;
-    text-transform: capitalize;
-    transition: .3s;
-    text-decoration: none;
+    display: block !important;
+    margin-bottom: 5px !important;
+    padding: 0 !important;
+    text-align: left !important;
+    color: rgba(255, 255, 255, .5) !important;
+    font-weight: normal !important;
+    text-transform: capitalize !important;
+    transition: .3s !important;
+    text-decoration: none !important;
 }
 
 .footer .btn.btn-link::before {
-    position: relative;
-    content: "\f105";
-    font-family: "Font Awesome 5 Free";
-    font-weight: 900;
-    color: rgba(255, 255, 255, .5);
-    margin-right: 10px;
+    position: relative !important;
+    content: "\f105" !important;
+    font-family: "Font Awesome 5 Free" !important;
+    font-weight: 900 !important;
+    color: rgba(255, 255, 255, .5) !important;
+    margin-right: 10px !important;
 }
 
 .footer .btn.btn-link:hover {
-    color: var(--primary);
-    letter-spacing: 1px;
-    box-shadow: none;
+    color: var(--primary) !important;
+    letter-spacing: 1px !important;
+    box-shadow: none !important;
 }
 .footer-socials {
-    background: #9f654f;
-    color: #fff;
+    background: #9f654f !important;
+    color: #fff !important;
 }
 .footer-socials:hover {
-    background: #ab7865;
-    color: #fff;
+    background: #ab7865 !important;
+    color: #fff !important;
 }
 /* Footer End */
 

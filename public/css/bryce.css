@@ -92,7 +92,7 @@
 /* Body */
 body {
     height: 100%;
-    background: black;
+    background: black !important;
     font-family: Euclid Circular A, Poppins;
 }
 

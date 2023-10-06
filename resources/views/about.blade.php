@@ -117,7 +117,7 @@
         background-color: #ab7865;
     }
     .about-us-p {
-        padding: 30px;
+        padding: 10px;
         position: relative;
     }
     .why-choose-us{
@@ -148,13 +148,13 @@
 
             <div class="row" style="padding: 2rem 5rem 0rem 3rem;">
                 <div class="col-sm-12 col-md-6 col-lg-9 align-items-center justify-content-center order-2 order-lg-1">
-                    <h2 class="first-header">Meet Daisy Wanjiru</h2>
+                    <h2 class="display-6 text-primary">Meet Daisy Wanjiru</h2>
                     <p class="about-us-p">
                         I'm Daisy Wanjiru, the lead photographer and founder of Queen-Dee-Photography. Photography has been a
                         passion of mine for as long as I can remember. I love the way it allows us to freeze time and capture
                         those beautiful, fleeting moments that define our lives.
                     </p>
-                    <h2 class="first-header">Our Journey</h2>
+                    <h2 class="display-6 text-primary">Our Journey</h2>
                     <p class="about-us-p">
                         My journey into wedding photography began with a single click of the shutter at a dear friend's wedding.
                         The joy, the tears, the laughter—I was hooked. That moment sparked a lifelong love affair with capturing
@@ -165,7 +165,7 @@
                 <div class="col-sm-12 col-md-6 col-lg-3 d-flex align-items-center justify-content-center order-1 order-lg-2">
 
                     <div class="avatar-container">
-                        <img src="{{ asset('images/IMG_20230805_132014_640.webp') }}" class="img-fluid avatar" width="100%">
+                        <img src="{{ asset('images\gallery\gallery3.webp') }}" class="img-fluid avatar" width="100%">
                     </div>
                 </div>
             </div>
@@ -175,17 +175,17 @@
                 <div class="col-sm-12 col-md-6 col-lg-3 d-flex align-items-center justify-content-center">
 
                     <div class="avatar-container">
-                        <img src="{{ asset('images\_42A9419.webp') }}" class="img-fluid avatar" width="100%">
+                        <img src="{{ asset('images\gallery\gallery14.webp') }}" class="img-fluid avatar" width="100%">
                     </div>
                 </div>
                 <div class="col-sm-12 col-md-6 col-lg-9 align-items-center justify-content-center">
-                    <h2 class="first-header">Our Approach</h2>
+                    <h2 class="display-6 text-primary">Our Approach</h2>
                     <p class="about-us-p">
                         At Queen-Dee-Photography, our approach to wedding photography is all about storytelling. We believe in
                         the power of authentic moments—the unscripted laughter, the stolen glances, the tender kisses. We're not
                         just photographers; we're visual storytellers who aim to create a timeless narrative of your love.
                     </p>
-                    <h2 class="first-header">Our Style</h2>
+                    <h2 class="display-6 text-primary">Our Style</h2>
                     <p class="about-us-p">
                         Our photography style is a blend of photojournalistic and fine art. We adore the candid shots that
                         reveal the raw, unfiltered emotions of your wedding day. But we also take pride in crafting elegant,
@@ -199,9 +199,9 @@
 
                 <div class="col-sm-12 col-md-6d-flex align-items-center justify-content-center">
                     <div class="why-choose-us">
-                        <h2>Why Choose Us</h2>
+                        <h2 class="display-6 text-primary">Why Choose Us</h2>
                         <p class="">
-                            <strong>Experience:</strong> With over 10 years of experience, we've photographed countless weddings,
+                            <strong>Experience:</strong> With over 5 years of experience, we've photographed countless weddings,
                             each one unique and special in its own way. We know how to anticipate moments, adapt to different
                             environments, and tell your story with grace and artistry.
                         </p>
@@ -215,7 +215,7 @@
                             souls into every photo we capture and every album we create. Your wedding photos are a reflection of our
                             commitment to excellence.
                         </p>
-                        <h2>Let's Chat!</h2>
+                        <h2 class="display-6 text-primary">Let's Chat!</h2>
 
                         <p>
                             We can't wait to learn more about you and your love story. Whether you're planning an intimate elopement or
@@ -228,7 +228,7 @@
                         <p>We can't wait to be a part of your journey! Thank you for considering Queen-Dee-Photography for your
                             wedding photography needs. We're honored to be a part of your love story.
                         </p>
-                        <h2 style="text-align: center;">Checkout Our Pricing!</h2>
+                        <h2 class="display-6 text-primary" style="text-align: center;">Checkout Our Pricing!</h2>
                     </div>
                 </div>
             </div>
