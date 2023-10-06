@@ -3,10 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Photozone - Photo Studio Website Template</title>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport">
-    <meta content="" name="keywords">
-    <meta content="" name="description">
+    
 
     <!-- Favicon -->
     <link href="img/favicon.ico" rel="icon">
@@ -68,7 +65,7 @@
         <div class="container">
             <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
                 <p class="text-primary text-uppercase mb-2">Our Works</p>
-                <h1 class="display-6 mb-0 text-secondary">Discover Our Unique And Creative Photoshoot</h1>
+                <h1 class="display-6 mb-0 text-secondary">Discover Our Unique And Creative Wedding Gallery</h1>
             </div>
             <div class="row g-3">
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">

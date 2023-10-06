@@ -39,48 +39,7 @@
     </div>
 
     <!-- latest work section -->
-    <section class="latest-work  ">
-        <div class="latest-work">
-
-            <p class="first-label fade-in text-md">Photo</p>
-            <div class="inline fade-in">
-
-                <i class="fa-solid fa-camera" style="color: #ab7865;"></i>
-
-                <p> &nbsp Our Latest work &nbsp</p>
-                <i class="fa-solid fa-camera" style="color: #ab7865;"></i>
-            </div>
-            <div class="gallery  container">
-
-
-                @foreach (range(1, 12) as $galleryNumber)
-                <div class="gallery-image fade-in">
-                    <a href="/photography">
-
-
-                    <img src="" alt="" srcset="{{ asset('images/home/home_gallery'.$galleryNumber.'.webp') }}">
-                    </a>
-
-
-
-                </div>
-                @endforeach
-
-            </div>
-
-
-
-
-
-            <div class="button">
-
-                <a href="/photography"> <button class="btn explore-more">Explore more Button</button></a>
-            </div>
-
-        </div>
-
-
-    </section>
+   
 
     <div class="container-xxl py-5">
         <div class="container">
@@ -99,29 +58,140 @@
                     <div class="h-100">
                         <p class="text-primary text-uppercase mb-2">About Me</p>
                         <h1 class="display-6 mb-4 text-primary">A Creative And Professional Photographer</h1>
-                        <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
-                        <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                        <p>Allow me to introduce myself—I'm Daisy Wanjiru. I am a Kenyan Nairobi Based wedding and lifestyle photographer with a passionate heart for capturing moments and love stories.I'm all about capturing the warmth of your special day. I don't just snap photos; I paint a picture of your love story with every click of my camera.</p>
+                        <p>My passion lies in capturing those raw, heartfelt moments that make your wedding day unique. I'm on a mission to preserve the emotions that fill the air on this joyous occasion.</p>
+
+                        <p>I'm not just your photographer; I'm your memory maker, your storyteller, and your friend. Let's embark on this journey together, and I'll ensure that your wedding day is captured with warmth and heart, ready to be relived for years to come.</p>
                         <div class="row g-2 mb-4">
                             <div class="col-sm-6">
                                 <i class="fa fa-check text-primary me-3"></i>Quality Products
                             </div>
                             <div class="col-sm-6">
-                                <i class="fa fa-check text-primary me-3"></i>Custom Products
+                                <i class="fa fa-check text-primary me-3"></i>Artistic
                             </div>
                             <div class="col-sm-6">
-                                <i class="fa fa-check text-primary me-3"></i>Online Order
+                                <i class="fa fa-check text-primary me-3"></i>Detail-Oriented
                             </div>
                             <div class="col-sm-6">
-                                <i class="fa fa-check text-primary me-3"></i>Home Delivery
+                                <i class="fa fa-check text-primary me-3"></i>Quality
                             </div>
                         </div>
-                        <a class="btn btn-book py-3 px-5" href="">Read More</a>
+                        <a class="btn btn-book py-3 px-5" href="/about">Read More</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
     <!-- About End -->
+
+    <section class="latest-work  ">
+    <div class="container-xxl py-5 pb-0">
+        <div class="container">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
+                <p class="text-primary text-uppercase mb-2">Our Latest Works</p>
+                
+            </div>
+            <div class="row g-3">
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="row g-3">
+                        <div class="col-12">
+                        <a class="project-title h5 mb-0" href="{{asset('images/gallery/gallery25.webp')}}" data-lightbox="project">
+                                
+                            <div class="project-item">
+                                <img class="img-fluid" src="{{asset('images/gallery/gallery25.webp')}}" alt="">
+                                
+                            </div>
+                            </a>
+                        </div>
+                        <div class="col-12">
+                        <a class="project-title h5 mb-0" href="{{asset('images/gallery/gallery1.webp')}}" data-lightbox="project">
+                                 
+                            <div class="project-item">
+                                <img class="img-fluid" src="{{asset('images/gallery/gallery1.webp')}}" alt="">
+                                
+                            </div>
+                          
+                                </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="row g-3">
+                        <div class="col-12">
+                        <a class="project-title h5 mb-0" href="{{asset('images/gallery/gallery5.webp')}}" data-lightbox="project">
+                                
+                            <div class="project-item">
+                                <img class="img-fluid" src="{{asset('images/gallery/gallery5.webp')}}" alt="">
+                               
+                            </div>
+                         
+                                </a>
+                        </div>
+                        <div class="col-12">
+                        <a class="project-title h5 mb-0" href="{{asset('images/gallery/gallery7.webp')}}" data-lightbox="project">
+                                    
+                            <div class="project-item">
+                                <img class="img-fluid" src="{{asset('images/gallery/gallery7.webp')}}" alt="">
+                                
+                                
+                            </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="row g-3">
+                        <div class="col-12">
+                        <a class="project-title h5 mb-0" href="{{asset('images/gallery/gallery14.webp')}}" data-lightbox="project">
+                                    
+                            <div class="project-item">
+                                <img class="img-fluid" src="{{asset('images/gallery/gallery14.webp')}}" alt="">
+                                
+                             
+                            </div>
+                            </a>
+                        </div>
+                        <div class="col-12">
+                        <a class="project-title h5 mb-0" href="{{asset('images/gallery/gallery16.webp')}}" data-lightbox="project">    
+                                   
+                            <div class="project-item">
+                                <img class="img-fluid" src="{{asset('images/gallery/gallery16.webp')}}" alt="">
+                                
+                             
+                            </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="row g-3">
+                        <div class="col-12">
+                        <a class="project-title h5 mb-0" href="{{asset('images/gallery/gallery18.webp')}}" data-lightbox="project">
+                                   
+                            <div class="project-item">
+                                <img class="img-fluid" src="{{asset('images/gallery/gallery18.webp')}}" alt="">
+                               
+                             
+                            </div>
+                            </a>
+                        </div>
+                        <div class="col-12">
+                        <a class="project-title h5 mb-0" href="img/project-8.jpg" data-lightbox="project">
+                                  
+                            <div class="project-item">
+                                <img class="img-fluid" src="{{asset('images/gallery/gallery20.webp')}}" alt="">
+                                
+                               
+                            </div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    </section>
 
     <!-- What we do section -->
     <section>
@@ -278,3 +348,9 @@
 @include('partials.footer')
 
 </html>
+
+
+
+
+
+
