@@ -71,8 +71,8 @@
 }
 
 .btn-book {
-    background-color: #9f654f;
-    color: white;
+    background-color: #9f654f !important;
+    color: white !important;
 }
 
 .btn-book:hover {
@@ -112,7 +112,7 @@ html {
 .intro-content {
    
     min-height: 70vh;
-    background-image: url('../images/wedding.webp');
+    background-image: url('../images/intro-img.webp');
     background-size: cover;
     background-position: center;
     position: relative;
@@ -247,7 +247,9 @@ html {
     position: relative;
    
 }
-
+.text-primary{
+    color: #9f654f !important;
+}
 
 .gallery-image:hover  img{
     cursor: pointer;
@@ -273,15 +275,15 @@ html {
 }
 
 .explore-more {
-    color: white;
-    background-color: #9f654f;
+    color: white !important;
+    background-color: #9f654f !important;
     padding: 10px;
     border-radius: unset;
     margin: 10px;
 }
 
 .explore-more:hover {
-    background-color: #ab7865;
+    background-color: #ab7865 !important;
 }
 
 .about-me {

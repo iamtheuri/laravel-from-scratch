@@ -3,6 +3,28 @@
 
 
 @include('partials.header')
+
+<head>
+        <!-- Libraries Stylesheet -->
+        <link rel="stylesheet" href="{{asset('css/style.css')}}">
+        <link href="{{asset('lib/animate/animate.min.css')}}" rel="stylesheet">
+    <link href="{{asset('lib/owlcarousel/assets/owl.carousel.min.css')}}" rel="stylesheet">
+    <link href="{{asset('lib/lightbox/css/lightbox.min.cs')}}s" rel="stylesheet">
+    <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}">
+    <script src="{{asset('js/main.js')}}"></script>
+    <script src="{{asset('lib/wow/wow.min.js')}}"></script>
+    <script src="{{asset('lib/easing/easing.min.js')}}"></script>
+    <script src="{{asset('lib/waypoints/waypoints.min.js')}}"></script>
+    <script src="{{asset('lib/counterup/counterup.min.js')}}"></script>
+    <script src="{{asset('lib/owlcarousel/owl.carousel.min.js')}}"></script>
+    <script src="{{asset('lib/lightbox/js/lightbox.min.js')}}"></script>
+
+
+</head>
+
+<body>
+    
+
 @include('partials.navbar')
 <div class="container-fluid wrapper">
 
@@ -60,60 +82,46 @@
 
     </section>
 
-    <!-- about me section -->
-    <section class="about-me-section">
-
-        <div class="about-me container-fluid fade-in">
-            <div class="crown-top">
-                <img src="{{ asset('images/crown.png') }}" alt="" srcset="">
-
-            </div>
-            <div class="row">
-                <div class="col-sm-12 col-md-6 col-lg-3 d-flex align-items-center justify-content-center fade-in">
-                    <div class="avatar-container">
-                        <img src="{{ asset('images/wedding.jpg') }}" class="img-fluid avatar" width="100%" alt=""
-                            srcset="">
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
+                    <div class="row g-3 img-twice position-relative h-100">
+                        <div class="col-6">
+                            <img class="img-fluid bg-light p-3" src="{{asset('images/home/home_gallery11.webp')}}" alt="">
+                        </div>
+                        <div class="col-6 align-self-end">
+                            <img class="img-fluid bg-light p-3" src="{{asset('images/home/home_gallery8.webp')}}" alt="">
+                        </div>
                     </div>
                 </div>
-                <div class="col-sm-12 col-md-6 col-lg-9 align-items-center justify-content-center text-left fade-in">
-                    <h2 class="first-header">About Me</h2>
-                    <p class="about-me">
-                        
-                        Allow me to introduce myself—I'm Daisy Wanjiru. I am a Kenyan Nairobi Based wedding and lifestyle photographer with a passionate heart for capturing moments and love stories.I'm all about capturing the warmth of your special day. I don't just snap photos; I paint a picture of your love story with every click of my camera.
-My passion lies in capturing those raw, heartfelt moments that make your wedding day unique. I have an artist's eye for detail, and I'm on a mission to preserve the emotions that fill the air on this joyous occasion.
-  My goal is to blend seamlessly into the background, ensuring that your smiles, your tears of happiness, and those whispered promises are all beautifully documented.
-
-I pride myself on creating a comfortable and relaxed atmosphere. Even the most camera-shy couples find themselves at ease in my presence. I have all the patience in the world, so there's no rush—I'm here to capture your love story as it naturally unfolds.
-
-
-I'm not just your photographer; I'm your memory maker, your storyteller, and your friend. Let's embark on this journey together, and I'll ensure that your wedding day is captured with warmth and heart, ready to be relived for years to come.
-                    </p>
-                    <div class="socials-about">
-                        <a class="" href=""><i class="fa-brands fa-square-facebook  fa-lg"
-                                style="color: #9f654f;"></i></a>
-                        <a class=""><i class="fa-brands fa-square-instagram  fa-lg" style="color: #9f654f;"></i></a>
-                        <a class=""><i class="fa-brands fa-linkedin  fa-lg" style="color: #9f654f;"></i></a>
-                        <a class=""><i class="fa-brands fa-twitter  fa-lg" style="color: #9f654f;"></i></a>
-
-
-
+                <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="h-100">
+                        <p class="text-primary text-uppercase mb-2">About Me</p>
+                        <h1 class="display-6 mb-4 text-primary">A Creative And Professional Photographer</h1>
+                        <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                        <p>Tempor erat elitr rebum at clita. Diam dolor diam ipsum sit. Aliqu diam amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit clita duo justo magna dolore erat amet</p>
+                        <div class="row g-2 mb-4">
+                            <div class="col-sm-6">
+                                <i class="fa fa-check text-primary me-3"></i>Quality Products
+                            </div>
+                            <div class="col-sm-6">
+                                <i class="fa fa-check text-primary me-3"></i>Custom Products
+                            </div>
+                            <div class="col-sm-6">
+                                <i class="fa fa-check text-primary me-3"></i>Online Order
+                            </div>
+                            <div class="col-sm-6">
+                                <i class="fa fa-check text-primary me-3"></i>Home Delivery
+                            </div>
+                        </div>
+                        <a class="btn btn-book py-3 px-5" href="">Read More</a>
                     </div>
                 </div>
-
-            </div>
-            <div class="crown-bottom">
-                <img src="{{ asset('images/crown.png') }}" alt="" srcset="">
             </div>
         </div>
-
-
-
-
-
-
-
-    </section>
-
+    </div>
+    <!-- About End -->
 
     <!-- What we do section -->
     <section>
@@ -233,32 +241,32 @@ I'm not just your photographer; I'm your memory maker, your storyteller, and you
     <section class="rating-section"></section>
     <div class="container-fluid customer-rating">
         <div class="brief-card col customer-card">
-            <h2>100</h2>
-            <h2>+</h2>
+            <h2 class="display-2 text-primary mb-3" data-toggle="counter-up">100</h2>
+            <h2 class="mb-3 text-primary">+</h2>
             <p>Happy Customers</p>
 
         </div>
         <div class="brief-card col customer-card">
-            <h2>1000</h2>
-            <h2>+</h2>
+            <h2 class="display-2 text-primary mb-3" data-toggle="counter-up" >1000</h2>
+            <h2 class="mb-3 text-primary">+</h2>
             <p>Photos Taken</p>
 
         </div>
         <div class="brief-card col customer-card">
-            <h2>50</h2>
-            <h2>+</h2>
+            <h2 class="display-2 text-primary mb-3" data-toggle="counter-up">50</h2>
+            <h2 class="mb-3 text-primary">+</h2>
             <p>Weddings Covered</p>
 
         </div>
-        <div class="brief-card col customer-card">
-            <h2>10</h2>
-            <h2>+</h2>
+        <div class="brief-card col customer-card wow fadeInUp" data-wow-delay="0.1s">
+        <h1 class="display-2 text-primary mb-3" data-toggle="counter-up">10</h1>
+            <h2 class="mb-3 text-primary">+</h2>
             <p>Professional Team</p>
 
         </div>
         <div class="brief-card col customer-card">
-            <h2>5</h2>
-            <h2>+</h2>
+            <h2 class="display-2 text-primary mb-3" data-toggle="counter-up">5</h2>
+            <h2 class="mb-3 text-primary">+</h2>
             <p>Years of Experience</p>
 
         </div>
