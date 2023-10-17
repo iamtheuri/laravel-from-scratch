@@ -3,7 +3,7 @@
     <a class="navbar-brand" href="#" 
         style="padding-left: 2rem;"
     >
-        Your Logo
+       <img src="{{asset('images/quuenlogo.png')}}" width="200px" height="auto" class="logo" alt="">
     </a>
     <button 
         class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" 

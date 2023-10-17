@@ -1,7 +1,13 @@
 <!DOCTYPE html>
 
+
+
+
 @include('partials.header')
 @include('partials.navbar')
+
+
+
 
 
 

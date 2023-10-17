@@ -38,12 +38,12 @@
         <div class="container py-5">
             <div class="row g-5 align-items-center">
                 <div class="col-lg-6">
-                    <h1 class="display-4 mb-3 animated slideInDown  text-primary">Our Projects</h1>
+                    <h1 class="display-4 mb-3 animated slideInDown  text-primary">Our Portfolio</h1>
                     <nav aria-label="breadcrumb animated slideInDown">
                         <ol class="breadcrumb mb-0">
-                            <li class="breadcrumb-item text-primary"><a href="#">Home</a></li>
-                            <li class="breadcrumb-item text-primary"><a href="#">Pages</a></li>
-                            <li class="breadcrumb-item active" aria-current="page">Our Projects</li>
+                            <li class="breadcrumb-item text-primary"><a href="/">Home</a></li>
+                            <li class="breadcrumb-item text-primary"><a href="/">Pages</a></li>
+                            <li class="breadcrumb-item active" aria-current="page">Our Portfolio</li>
                         </ol>
                     </nav>
                 </div>
@@ -67,213 +67,169 @@
     <div class="container-xxl py-5 pb-0">
         <div class="container">
             <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
-                <p class="text-primary text-uppercase mb-2">Our Works</p>
-                <h1 class="display-6 mb-0 text-secondary">Discover Our Unique And Creative Wedding Gallery</h1>
+                <p class="text-primary text-uppercase mb-2">Our Work</p>
+                <h1 class="display-6 mb-0 text-secondary text-white">Discover Our Unique And Creative Wedding Gallery</h1>
             </div>
             <div class="row g-3">
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="row g-3">
                         <div class="col-12">
-                        <a class="project-title h5 mb-0" href="{{asset('images/gallery/gallery25.webp')}}" data-lightbox="project">
-                                
+              
                             <div class="project-item">
-                                <img class="img-fluid" src="{{asset('images/gallery/gallery25.webp')}}" alt="">
+                                <img class="img-fluid" src="{{asset('images/portfolio/esther/esther-1.webp')}}" alt="">
+                                <a class="project-title h5 mb-0" href="{{asset('images/portfolio/esther/esther-1.webp')}}" data-lightbox="esther">
+                               Esther
+                                </a>
+
+                                @foreach(range(2,13) as $gallery_number)
+                                <a class="invisible" href="{{asset('images/portfolio/esther/esther-'.$gallery_number.'.webp')}}" data-lightbox="esther">
+                                    
+                                </a>
+                                @endforeach
+                               
+                             
+                             
                                 
                             </div>
-                            </a>
+                           
                         </div>
                         <div class="col-12">
-                        <a class="project-title h5 mb-0" href="{{asset('images/gallery/gallery1.webp')}}" data-lightbox="project">
-                                 
+  
                             <div class="project-item">
-                                <img class="img-fluid" src="{{asset('images/gallery/gallery1.webp')}}" alt="">
+                                <img class="img-fluid" src="{{asset('images/portfolio/adrian-beryl/adrian-beryl-16.webp')}}" alt="">
+                                <a class="project-title h5 mb-0" href="{{asset('images/portfolio/adrian-beryl/adrian-beryl-16.webp')}}" data-lightbox="adrian-beryl">
+                                Adrian &amp Beryl 
+                                </a>
+                                @foreach(range(1,22) as $gallery_number)
+                                <a class="invisible" href="{{asset('images/portfolio/adrian-beryl/adrian-beryl-'.$gallery_number.'.webp')}}" data-lightbox="adrian-beryl">
+                                    
+                                </a>
+                                @endforeach
+                               
                                 
                             </div>
                           
-                                </a>
+                             
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
                     <div class="row g-3">
                         <div class="col-12">
-                        <a class="project-title h5 mb-0" href="{{asset('images/gallery/gallery5.webp')}}" data-lightbox="project">
+                        <!-- <a class="project-title h5 mb-0" href="{{asset('images/gallery/gallery.webp')}}" data-lightbox="project"> -->
                                 
                             <div class="project-item">
-                                <img class="img-fluid" src="{{asset('images/gallery/gallery5.webp')}}" alt="">
+                                <img class="img-fluid" src="{{asset('images/portfolio/janet/janet-5.webp')}}" alt="">
+                                <a class="project-title h5 mb-0" href="{{asset('images/portfolio/janet/janet-5.webp')}}" data-lightbox="janet">
+                               Janet Wedding
+                                </a>
+                                @foreach(range(1,15) as $gallery_number)
+                                <a class="invisible" href="{{asset('images/portfolio/janet/janet-'.$gallery_number.'.webp')}}" data-lightbox="janet">
+                                    
+                                </a>
+                                @endforeach
                                
                             </div>
                          
-                                </a>
+                                
                         </div>
                         <div class="col-12">
-                        <a class="project-title h5 mb-0" href="{{asset('images/gallery/gallery7.webp')}}" data-lightbox="project">
-                                    
+                         
                             <div class="project-item">
-                                <img class="img-fluid" src="{{asset('images/gallery/gallery7.webp')}}" alt="">
+                                <img class="img-fluid" src="{{asset('images/portfolio/josh-sylvia/josh-sylvia1.webp')}}" alt="">
+                                <a class="project-title h5 mb-0" href="{{asset('images/portfolio/josh-sylvia/josh-sylvia1.webp')}}" data-lightbox="josh-sylvia">
+                               Joshua &amp Sylvia Decor
+                                </a>
+                                @foreach(range(1,12) as $gallery_number)
+                                <a class="invisible" href="{{asset('images/portfolio/josh-sylvia/josh-sylvia'.$gallery_number.'.webp')}}" data-lightbox="josh-sylvia">
+                                    
+                                </a>
+                                @endforeach
+                                
                                 
                                 
                             </div>
-                            </a>
+                         
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
                     <div class="row g-3">
                         <div class="col-12">
-                        <a class="project-title h5 mb-0" href="{{asset('images/gallery/gallery14.webp')}}" data-lightbox="project">
-                                    
+                                 
                             <div class="project-item">
-                                <img class="img-fluid" src="{{asset('images/gallery/gallery14.webp')}}" alt="">
+                                <img class="img-fluid" src="{{asset('images/portfolio/sarah-kevin/kevin-sarah-1.webp')}}" alt="">
+                                <a class="project-title h5 mb-0" href="{{asset('images/portfolio/sarah-kevin/kevin-sarah-1.webp')}}" data-lightbox="kevin-sarah">
+                                 Kevin &amp Sarah 
+                                </a>
+                                @foreach(range(1,26) as $gallery_number)
+                                <a class="invisible" href="{{asset('images/portfolio/sarah-kevin/kevin-sarah-'.$gallery_number.'.webp')}}" data-lightbox="kevin-sarah">
+                                    
+                                </a>
+                                @endforeach
                                 
                              
                             </div>
-                            </a>
+                            
                         </div>
                         <div class="col-12">
-                        <a class="project-title h5 mb-0" href="{{asset('images/gallery/gallery16.webp')}}" data-lightbox="project">    
-                                   
-                            <div class="project-item">
-                                <img class="img-fluid" src="{{asset('images/gallery/gallery16.webp')}}" alt="">
+                            
+                        <div class="project-item">
+                                <img class="img-fluid" src="{{asset('images/portfolio/kate-peter/peter-kate-13.webp')}}" alt="">
+                                <a class="project-title h5 mb-0" href="{{asset('images/portfolio/kate-peter/peter-kate-13.webp')}}" data-lightbox="peter-kate">
+                                 Pater &amp Kate 
+                                </a>
+                                @foreach(range(1,23) as $gallery_number)
+                                <a class="invisible" href="{{asset('images/portfolio/kate-peter/peter-kate-'.$gallery_number.'.webp')}}" data-lightbox="peter-kate">
+                                    
+                                </a>
+                                @endforeach
                                 
                              
                             </div>
-                            </a>
+                          
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
                     <div class="row g-3">
                         <div class="col-12">
-                        <a class="project-title h5 mb-0" href="{{asset('images/gallery/gallery18.webp')}}" data-lightbox="project">
-                                   
-                            <div class="project-item">
+                         <div class="project-item">
                                 <img class="img-fluid" src="{{asset('images/gallery/gallery18.webp')}}" alt="">
-                               
+                                <a class="project-title h5 mb-0" href="{{asset('images/gallery/gallery5.webp')}}" data-lightbox="DAVID">
+                                 Daisy &amp Mtu
+                                </a>                              
                              
                             </div>
-                            </a>
+                          
                         </div>
                         <div class="col-12">
-                        <a class="project-title h5 mb-0" href="img/project-8.jpg" data-lightbox="project">
-                                  
+                              
                             <div class="project-item">
-                                <img class="img-fluid" src="{{asset('images/gallery/gallery20.webp')}}" alt="">
+                            <a class="mb-0" href="{{asset('images/gallery/gallery5.webp')}}" data-lightbox="others">
+                                
+                                <img class="img-fluid" src="{{asset('images/portfolio/others/others-1.webp')}}" alt="">
+                                <a class="project-title h5 mb-0" href="{{asset('images/portfolio/others/others-1.webp')}}" data-lightbox="others">
+                                 Others
+                                </a>
+                                @foreach(range(1,6) as $gallery_number)
+                                <a class="invisible" href="{{asset('images/portfolio/others/others-'.$gallery_number.'.webp')}}" data-lightbox="others">
+                                    
+                                </a>
+                                @endforeach
+
                                 
                                
                             </div>
                             </a>
-                        </div>
+                            </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
     
-    <div class="container-xxl py-5  pt-1">
-        <div class="container">
-           
-            <div class="row g-3">
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="row g-3">
-                        <div class="col-12">
-                        <a class="project-title h5 mb-0" href="{{asset('images/gallery/gallery22.webp')}}" data-lightbox="project">
-                                  
-                            <div class="project-item">
-                                <img class="img-fluid" src="{{asset('images/gallery/gallery22.webp')}}" alt="">
-                              
-                            </div>
-                           
-                                </a>
-                        </div>
-                        <div class="col-12">
-                        <a class="project-title h5 mb-0" href="{{asset('images/gallery/gallery30.webp')}}" data-lightbox="project">
-                                   
-                            <div class="project-item">
-                                <img class="img-fluid" src="{{asset('images/gallery/gallery30.webp')}}" alt="">
-                               
-                              
-                            </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="row g-3">
-                        <div class="col-12">
-                        <a class="project-title h5 mb-0" href="{{asset('images/gallery/gallery32.webp')}}" data-lightbox="project">
-                           
-                            <div class="project-item">
-                                <img class="img-fluid" src="{{asset('images/gallery/gallery32.webp')}}" alt="">
-                               
-                               
-                            </div>
-                            </a>
-                        </div>
-                        <div class="col-12">
-                        <a class="project-title h5 mb-0" href="{{asset('images/gallery/gallery26.webp')}}" data-lightbox="project">
-                                  
-                            <div class="project-item">
-                                <img class="img-fluid" src="{{asset('images/gallery/gallery26.webp')}}" alt="">
-                               
-                             
-                            </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="row g-3">
-                        <div class="col-12">
-                        <a class="project-title h5 mb-0" href="img/project-7.jpg" data-lightbox="project">
-                               
-                            <div class="project-item">
-                                <img class="img-fluid" src="{{asset('images/gallery/gallery47.webp')}}" alt="">
-                             
-                             
-                            </div>
-                            </a>
-                        </div>
-                        <div class="col-12">
-                        <a class="project-title h5 mb-0" href="{{asset('images/gallery/gallery58.webp')}}" data-lightbox="project">    
-                                  
-                            <div class="project-item">
-                                <img class="img-fluid" src="{{asset('images/gallery/gallery58.webp')}}" alt="">
-                               
-
-                            </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.7s">
-                    <div class="row g-3">
-                        <div class="col-12">
-                        <a class="project-title h5 mb-0" href="{{asset('images/gallery/gallery56.webp')}}" data-lightbox="project">
- 
-                            <div class="project-item">
-                                <img class="img-fluid" src="{{asset('images/gallery/gallery56.webp')}}" alt="">
-                                
-                              
-                            </div>
-                            </a>
-                        </div>
-                        <div class="col-12">
-                        <a class="project-title h5 mb-0" href="{{asset('images/gallery/gallery21.webp')}}" data-lightbox="project">
-                               
-                            <div class="project-item">
-                                <img class="img-fluid" src="{{asset('images/gallery/gallery21.webp')}}" alt="">
-                              
-                              
-                            </div>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Project End -->
+   
 
     @include('partials.footer')
 
