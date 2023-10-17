@@ -38,67 +38,80 @@
             </div>
             <div class="row g-3 justify-content-center">
                 <div class="col-lg-2 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="service-item d-flex flex-column bg-light p-3 pb-0">
+                    <div class="service-item d-flex flex-column p-3 pb-0"
+                        style="background: #0000; box-shadow: 0 0 10px #ab7865;"
+                    >
                         <div class="position-relative">
                             <img class="img-fluid" src="images/gallery/gallery55.webp" alt="">
                             <div class="service-overlay">
                                 <a class="btn btn-lg-square btn-outline-light rounded-circle" href="#service1"><i class="fa fa-link text-primary"></i></a>
                             </div>
                         </div>
-                        <div class="text-center p-4">
-                            <h4>Wedding Photography</h4>
+                        <div class="text-start p-3" style="max-width: 100%;">
+                            <h5 class="text-white" style="word-wrap: break-word; max-width: 100%;">
+                                Wedding Photography
+                            </h5>
                         </div>
                     </div>
                 </div>
+
                 <div class="col-lg-2 col-md-6 pt-lg-5 wow fadeInUp" data-wow-delay="0.3s">
-                    <div class="service-item d-flex flex-column bg-light p-3 pb-0">
+                    <div class="service-item d-flex flex-column p-3 pb-0"
+                        style="background: #0000; box-shadow: 0 0 10px #ab7865;"
+                    >
                         <div class="position-relative">
                             <img class="img-fluid" src="images/gallery/gallery39.webp" alt="">
-                            <div class="service-overlay">
-                                <a class="btn btn-lg-square btn-outline-light rounded-circle" href="#service2"><i class="fa fa-link text-primary"></i></a>
-                            </div>
-                        </div>
-                        <div class="text-center p-4">
-                            <h4>Destination Wedding Photography</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="service-item d-flex flex-column bg-light p-3 pb-0">
-                        <div class="position-relative">
-                            <img class="img-fluid" src="images/gallery/gallery51.webp" alt="">
-                            <div class="service-overlay">
-                                <a class="btn btn-lg-square btn-outline-light rounded-circle" href="#service3"><i class="fa fa-link text-primary"></i></a>
-                            </div>
-                        </div>
-                        <div class="text-center p-4">
-                            <h4>Traditional Wedding</h4>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-2 col-md-6 pt-lg-5 wow fadeInUp" data-wow-delay="0.7s">
-                    <div class="service-item d-flex flex-column bg-light p-3 pb-0">
-                        <div class="position-relative">
-                            <img class="img-fluid" src="images/wedding.webp" alt="">
                             <div class="service-overlay">
                                 <a class="btn btn-lg-square btn-outline-light rounded-circle" href="#service4"><i class="fa fa-link text-primary"></i></a>
                             </div>
                         </div>
-                        <div class="text-center p-4">
-                            <h4>Engagement Photography</h4>
+                        <div class="text-start p-3" style="max-width: 100%;">
+                            <h5 class="text-white" style="word-wrap: break-word; max-width: 100%;">Destination Wedding Photography</h5>
                         </div>
                     </div>
                 </div>
                 <div class="col-lg-2 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
-                    <div class="service-item d-flex flex-column bg-light p-3 pb-0">
+                    <div class="service-item d-flex flex-column p-3 pb-0"
+                        style="background: #0000; box-shadow: 0 0 10px #ab7865;"
+                    >
+                        <div class="position-relative">
+                            <img class="img-fluid" src="images/gallery/gallery51.webp" alt="">
+                            <div class="service-overlay">
+                                <a class="btn btn-lg-square btn-outline-light rounded-circle" href="#service2"><i class="fa fa-link text-primary"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-start p-3" style="max-width: 100%;">
+                            <h5 class="text-white" style="word-wrap: break-word; max-width: 100%;">Traditional Wedding</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 pt-lg-5 wow fadeInUp" data-wow-delay="0.7s">
+                    <div class="service-item d-flex flex-column p-3 pb-0"
+                        style="background: #0000; box-shadow: 0 0 10px #ab7865;"
+                    >
+                        <div class="position-relative">
+                            <img class="img-fluid" src="images/wedding.webp" alt="">
+                            <div class="service-overlay">
+                                <a class="btn btn-lg-square btn-outline-light rounded-circle" href="#service3"><i class="fa fa-link text-primary"></i></a>
+                            </div>
+                        </div>
+                        <div class="text-start p-3" style="max-width: 100%;">
+                            <h5 class="text-white" style="word-wrap: break-word; max-width: 100%;">Engagement Photography</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-md-6 wow fadeInUp" data-wow-delay="0.5s">
+                    <div class="service-item d-flex flex-column p-3 pb-0"
+                        style="background: #0000; box-shadow: 0 0 10px #ab7865;"
+                    >
                         <div class="position-relative">
                             <img class="img-fluid" src="images/gallery/gallery27.webp" alt="">
                             <div class="service-overlay">
                                 <a class="btn btn-lg-square btn-outline-light rounded-circle" href="/contact"><i class="fa fa-link text-primary"></i></a>
                             </div>
                         </div>
-                        <div class="text-center p-4">
-                            <h4>Other Services?</h4>
+                        <div class="text-start p-3" style="max-width: 100%;">
+                            <h5 class="text-white" style="word-wrap: break-word; max-width: 100%;">Other Services?</h5>
                         </div>
                     </div>
                 </div>
