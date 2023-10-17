@@ -64,7 +64,7 @@
         <div class="container">
             <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
                 <p class="text-primary text-uppercase mb-2">Our Work</p>
-                <h1 class="display-6 mb-0 text-secondary text-white">Discover Our Unique And Creative Wedding Gallery</h1>
+                <h1 class="display-6 mb-0 text-secondary text-white">Explore Our Unique And Creative Wedding Gallery</h1>
             </div>
             <div class="row g-3">
                 <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
