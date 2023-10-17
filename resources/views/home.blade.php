@@ -31,8 +31,7 @@
 
     <div class="intro-content intro-img" id="intro-content">
         <div class="description ">
-            <a class="special-p fade-in">Photography Is the Art of Capturing Memories</a>
-
+       
             <p class="fade-in"> &quot Bring your wedding to life &quot</p>
 
         </div>
@@ -63,9 +62,9 @@
                         <p>My passion lies in capturing those raw, heartfelt moments that make your wedding day unique. I'm on a mission to preserve the emotions that fill the air on this joyous occasion.</p>
 
                         <p>I'm not just your photographer; I'm your memory maker, your storyteller, and your friend. Let's embark on this journey together, and I'll ensure that your wedding day is captured with warmth and heart, ready to be relived for years to come.</p>
-                        <div class="row g-2 mb-4">
+                        <div class="row g-2 mb-4 qualities">
                             <div class="col-sm-6">
-                                <i class="fa fa-check text-primary me-3"></i>Quality Products
+                                <i class="fa fa-check text-primary me-3"></i>Experienced
                             </div>
                             <div class="col-sm-6">
                                 <i class="fa fa-check text-primary me-3"></i>Artistic
@@ -74,7 +73,7 @@
                                 <i class="fa fa-check text-primary me-3"></i>Detail-Oriented
                             </div>
                             <div class="col-sm-6">
-                                <i class="fa fa-check text-primary me-3"></i>Quality
+                                <i class="fa fa-check text-primary me-3"></i>Professional
                             </div>
                         </div>
                         <a class="btn btn-book py-3 px-5" href="/about">Read More</a>
@@ -214,16 +213,16 @@
                 <div class="brief-card col text-center fade-in ">
 
                     <i class="fa-solid fa-star-of-life fa-xl" style="color: #796120;"></i>
-                    <h3 class="wedding">Bronze Package</h3>
+                    <h3 class="wedding">Elopements</h3>
 
                     <p class="wedding-desc">
                         Ideal for couples seeking basic coverage. </p>
                     <p class="wedding-desc">
-                        Coverage of the ceremony and select key moments.</p>
+                        ideal for small, intimate ceremonies.</p>
                     <p class="wedding-desc">
-                        Beautifully edited high-resolution images. </p>
+                    Focuses on the couple's love and connection. </p>
                     <p class="wedding-desc">
-                        Perfect for intimate weddings and elopements
+                    Often in picturesque, remote locations.
                     </p>
                     <a href="/photography"><button class="btn explore-more" data-bs-target="/">More Details</button></a>
 
@@ -234,16 +233,16 @@
                 <div class="brief-card col text-center fade-in ">
 
                     <i class="fa-solid fa-star-of-life fa-xl" style="color: #796120;"></i>
-                    <h3 class="wedding">Silver Package</h3>
+                    <h3 class="wedding">Full Weddinng Services</h3>
 
                     <p class="wedding-desc">
-                        Extended coverage capturing more of your day.. </p>
+                        Extended coverage capturing more of your day. </p>
                     <p class="wedding-desc">
-                        Pre-ceremony and reception coverage.</p>
+                    Includes pre-ceremony, ceremony, reception, and all key moments.</p>
                     <p class="wedding-desc">
-                        Enhanced post-processing for stunning images </p>
+                    Provides a complete visual narrative of the day. </p>
                     <p class="wedding-desc">
-                        A complimentary engagement photo session.
+                        A complimentary engagement photo session. </p>
                         <a href="/photography"><button class="btn explore-more" data-bs-target="/">More
                                 Details</button></a>
 
@@ -254,16 +253,16 @@
                 <div class="brief-card col text-center fade-in ">
 
                     <i class="fa-solid fa-star-of-life fa-xl" style="color: #796120;"></i>
-                    <h3 class="wedding">Gold Package</h3>
+                    <h3 class="wedding">Traditional Wedding </h3>
 
                     <p class="wedding-desc">
-                        Comprehensive coverage from preparations to the grand exit.. </p>
+                    Emphasizes posed, formal shots</p>
                     <p class="wedding-desc">
                         A premium custom-designed photo album.</p>
                     <p class="wedding-desc">
-                        Full day coverage ensures no moment is missed </p>
+                    Captures essential wedding moments, such as the ceremony and group portraits.</p>
                     <p class="wedding-desc">
-                        Engagement session with prints included.
+                    A classic, timeless approach.
                     </p>
                     <a href="/photography"><button class="btn explore-more" data-bs-target="/">More Details</button></a>
 
@@ -274,14 +273,14 @@
                 <div class="brief-card col text-center fade-in ">
 
                     <i class="fa-solid fa-star-of-life fa-xl" style="color: #796120;"></i>
-                    <h3 class="wedding">Platinum Package</h3>
+                    <h3 class="wedding">Engagements</h3>
 
                     <p class="wedding-desc">
-                        The ultimate wedding photography experience </p>
+                    Can be used for save-the-date cards and wedding announcements. </p>
                     <p class="wedding-desc">
-                        CDrone photography for breathtaking aerial shots..</p>
+                    A separate photoshoot before the wedding.</p>
                     <p class="wedding-desc">
-                        Priority booking and personal consultation.. </p>
+                    Showcases the couple's love and excitement. </p>
                     <p class="wedding-desc">
                         A stunning canvas print of your favorite shot.
                     </p>

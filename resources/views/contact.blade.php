@@ -1,11 +1,15 @@
 <!DOCTYPE html>
 
+
+
+
 @include('partials.header')
 @include('partials.navbar')
 
 
 
     <div class="container-fluid wrapper bg-dark" style="padding-top: 2rem"> 
+
         
 
 
