@@ -1,13 +1,18 @@
 <x-mail::message>
-# Name: {{ $name }}
-# Email: {{ $email }}
-
+# Client Name: 
+{{ $name }}
+# Client Email: 
+{{ $email }}
+# Client Phone Number: 
+{{ $phone }}
+# Service Type: 
+{{ $service }}
+# Message:
 {{ $content }}
 
-<x-mail::button :url="''">
-Button Text
+<x-mail::button :url="'mailto:' . $email">
+    Reply to Email
 </x-mail::button>
 
-Thanks,<br>
 {{ config('app.name') }}
 </x-mail::message>

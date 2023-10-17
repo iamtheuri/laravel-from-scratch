@@ -30,3 +30,7 @@ Route::get('/photography', function () {
 // });
 Route::get('/contact', [ContactController::class, 'show'])->name('contact.show');
 Route::post('/contact', [ContactController::class, 'submit'])->name('contact.submit');
+
+Route::get('/services', function () {
+    return view('services');
+});

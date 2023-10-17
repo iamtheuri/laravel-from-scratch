@@ -1,5 +1,16 @@
+<!-- Libraries Stylesheet -->
+<link href="{{asset('lib/animate/animate.min.css')}}" rel="stylesheet">
+<link href="{{asset('lib/owlcarousel/assets/owl.carousel.min.css')}}" rel="stylesheet">
+<link href="{{asset('lib/lightbox/css/lightbox.min.css')}}" rel="stylesheet">
 
-<nav class="navbar navbar-expand-lg  navbar-expand-md px-5 navbar-black bg-black fixed-top">
+<!-- Customized Bootstrap Stylesheet -->
+<link href="{{asset('css/bootstrap.min.css')}}" rel="stylesheet">
+
+<!-- Template Stylesheet -->
+<link href="{{asset('css/style.css')}}" rel="stylesheet">
+
+
+<nav class="navbar navbar-expand-lg navbar-collapse navbar-expand-md px-5 navbar-black bg-black fixed-top">
     <a class="navbar-brand" href="#" 
         style="padding-left: 2rem;"
     >
@@ -24,6 +35,9 @@
             <li class="nav-item">
             <a class="nav-link" href="/photography">Gallery</a>
             </li>
+            <li class="nav-item">
+            <a class="nav-link" href="/services">Services</a>
+            </li>
         </ul>
         <div class="navbar-book ml-auto">
             <button class="btn btn-book" type="submit">
@@ -36,3 +50,4 @@
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>
