@@ -5,10 +5,6 @@
 
 <head>
     <meta charset="utf-8">
-    
-
-    <!-- Favicon -->
-    <link href="img/favicon.ico" rel="icon">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -41,8 +37,7 @@
                     <h1 class="display-4 mb-3 animated slideInDown  text-primary">Our Projects</h1>
                     <nav aria-label="breadcrumb animated slideInDown">
                         <ol class="breadcrumb mb-0">
-                            <li class="breadcrumb-item text-primary"><a href="#">Home</a></li>
-                            <li class="breadcrumb-item text-primary"><a href="#">Pages</a></li>
+                            <li class="breadcrumb-item text-primary"><a href="/">Home</a></li>
                             <li class="breadcrumb-item active" aria-current="page">Our Projects</li>
                         </ol>
                     </nav>
@@ -50,10 +45,10 @@
                 <div class="col-lg-6 animated fadeIn">
                     <div class="row g-3">
                         <div class="col-6 text-end">
-                            <img class="img-fluid bg-white p-3 w-100" src="images/gallery/gallery38.webp" alt="">
+                            <img class="img-fluid bg-white p-3 w-100" src="images/gallery/gallery58.webp" alt="">
                         </div>
                         <div class="col-6">
-                            <img class="img-fluid bg-white p-3 w-100" src="images/wedding.webp" alt="">
+                            <img class="img-fluid bg-white p-3 w-100" src="images/gallery/gallery3.webp" alt="">
                         </div>
                     </div>
                 </div>

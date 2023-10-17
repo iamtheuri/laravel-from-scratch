@@ -5,7 +5,7 @@
 
 
 
-    <div class="container-fluid wrapper" style="padding-top: 2rem"> 
+    <div class="container-fluid wrapper bg-dark" style="padding-top: 2rem"> 
         
 
 
@@ -59,12 +59,29 @@
                             <span>Full Name</span>
                         </div>
                         <div class="input-box">
+                            <input type="tel" name="phone" pattern="[0-9]{10,}" title="Please enter a valid phone number with at least 10 digits" required>
+                            <span>Phone Number</span>
+                        </div>
+
+                        <div class="input-box">
                             <input type="email" name="email" required>
                             <span>Email</span>
                         </div>
                         <div class="input-box">
                             <textarea name="content" required></textarea>
                             <span>Talk To Us...</span>
+                        </div>
+                        <div class="form-group">
+                            <label for="service">Select Service:</label>
+                            <select id="service" name="service" class="form-control" required>
+                                <option value="" disabled selected>Select a Service</option>
+                                <option value="Wedding Photography">Wedding Photography</option>
+                                <option value="Engagement Photography">Engagement Photography</option>
+                                <option value="Destination Wedding Photography">Destination Wedding Photography</option>
+                                <option value="Elopment Wedding Photography">Elopment Wedding Photography</option>
+                                <option value="Traditional Wedding Photography">Traditional Wedding Photography</option>
+                                <option value="Other">Other</option>
+                            </select>
                         </div>
                         <div class="input-box">
                             <input type="submit" id="submit-button">
@@ -132,5 +149,17 @@
 </script>
 
 @include('partials.footer')
+<!-- JS Libraries -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="lib/wow/wow.min.js"></script>
+<script src="lib/easing/easing.min.js"></script>
+<script src="lib/waypoints/waypoints.min.js"></script>
+<script src="lib/counterup/counterup.min.js"></script>
+<script src="lib/owlcarousel/owl.carousel.min.js"></script>
+<script src="lib/lightbox/js/lightbox.min.js"></script>
+
+<!-- Main Javascript -->
+<script src="js/main.js"></script>
 
 </html>

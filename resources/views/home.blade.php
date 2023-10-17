@@ -6,9 +6,9 @@
 @include('partials.navbar')
 
 <head>
-        <!-- Libraries Stylesheet -->
-        <link rel="stylesheet" href="{{asset('css/style.css')}}">
-        <link href="{{asset('lib/animate/animate.min.css')}}" rel="stylesheet">
+    <!-- Libraries Stylesheet -->
+    <link rel="stylesheet" href="{{asset('css/style.css')}}">
+    <link href="{{asset('lib/animate/animate.min.css')}}" rel="stylesheet">
     <link href="{{asset('lib/owlcarousel/assets/owl.carousel.min.css')}}" rel="stylesheet">
     <link href="{{asset('lib/lightbox/css/lightbox.min.cs')}}s" rel="stylesheet">
     <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}">
@@ -349,6 +349,18 @@
 
 
 @include('partials.footer')
+<!-- JS Libraries -->
+<script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="lib/wow/wow.min.js"></script>
+<script src="lib/easing/easing.min.js"></script>
+<script src="lib/waypoints/waypoints.min.js"></script>
+<script src="lib/counterup/counterup.min.js"></script>
+<script src="lib/owlcarousel/owl.carousel.min.js"></script>
+<script src="lib/lightbox/js/lightbox.min.js"></script>
+
+<!-- Main Javascript -->
+<script src="js/main.js"></script>
 
 </html>
 
