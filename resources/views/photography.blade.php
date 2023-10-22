@@ -5,6 +5,7 @@
 
 <head>
     <meta charset="utf-8">
+    <link rel="canonical" href="https://www.queendeeweddings.co.ke/">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -191,10 +192,15 @@
                     <div class="row g-3">
                         <div class="col-12">
                          <div class="project-item">
-                                <img class="img-fluid" src="{{asset('images/gallery/gallery18.webp')}}" alt="">
-                                <a class="project-title h5 mb-0" href="{{asset('images/gallery/gallery5.webp')}}" data-lightbox="DAVID">
-                                 Daisy &amp Mtu
-                                </a>                              
+                                <img class="img-fluid" src="{{asset('images/traditional/traditional_wed-3.webp')}}" alt="">
+                                <a class="project-title h5 mb-0" href="{{asset('images/traditional/traditional_wed-1.webp')}}" data-lightbox="traditional">
+                                Traditional Weddings
+                                </a>       
+                                @foreach(range(2,13) as $gallery_number)
+                                <a class="invisible" href="{{asset('images/traditional/traditional_wed-'.$gallery_number.'.webp')}}" data-lightbox="traditional">
+                                    
+                                </a>
+                                @endforeach                       
                              
                             </div>
                           

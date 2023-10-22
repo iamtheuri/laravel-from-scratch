@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<link rel="canonical" href="https://www.queendeeweddings.co.ke/contacts">
 
 
 

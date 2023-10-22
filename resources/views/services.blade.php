@@ -5,6 +5,7 @@
 
 <head>
     <meta charset="utf-8">
+    <link rel="canonical" href="https://www.queendeeweddings.co.ke/services">
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -75,7 +76,7 @@
                         style="background: #0000; box-shadow: 0 0 10px #ab7865;"
                     >
                         <div class="position-relative">
-                            <img class="img-fluid" src="images/gallery/gallery51.webp" alt="">
+                            <img class="img-fluid" src="images/traditional/traditional_wed-3.webp" alt="">
                             <div class="service-overlay">
                                 <a class="btn btn-lg-square btn-outline-light rounded-circle" href="#service2"><i class="fa fa-link text-primary"></i></a>
                             </div>
@@ -105,7 +106,7 @@
                         style="background: #0000; box-shadow: 0 0 10px #ab7865;"
                     >
                         <div class="position-relative">
-                            <img class="img-fluid" src="images/gallery/gallery27.webp" alt="">
+                            <img class="img-fluid" src="images/gallery/gallery9.webp" alt="">
                             <div class="service-overlay">
                                 <a class="btn btn-lg-square btn-outline-light rounded-circle" href="/contact"><i class="fa fa-link text-primary"></i></a>
                             </div>
@@ -157,7 +158,7 @@
                 <div class="row g-0 flex-sm-row-reverse flex-lg-row">
                     <div class="col-sm-6">
                         <div class="position-relative">
-                            <img class="img-fluid" src="images/gallery/gallery6.webp" alt="">
+                            <img class="img-fluid" src="images/traditional/traditional_wed-3.webp" alt="">
                         </div>
                     </div>
                     <div class="col-sm-6">
@@ -187,8 +188,8 @@
                             <img class="img-fluid" src="images/gallery/gallery30.webp" alt="">
                         </div>
                     </div>
-                    <div class="col-sm-6">
-                        <div class="h-100 p-5 pt-0 pb-0 d-flex flex-column justify-content-between">
+                    <div class="col-sm-6 ">
+                        <div class="h-100 p-5 pt-0 pb-4 d-flex flex-column justify-content-between">
                             <div class="mb-3">
                                 <h2 class="package-name">Engagement Photography</h2>
                                 <span class="text-white">Timeless Elegance weddings</span>
@@ -275,12 +276,10 @@
     <!-- JS Libraries -->
     <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-    <script src="lib/wow/wow.min.js"></script>
-    <script src="lib/easing/easing.min.js"></script>
-    <script src="lib/waypoints/waypoints.min.js"></script>
-    <script src="lib/counterup/counterup.min.js"></script>
-    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-    <script src="lib/lightbox/js/lightbox.min.js"></script>
+    <script src="{{asset('lib/wow/wow.min.js')}}" defer></script>
+    <script src="lib/easing/easing.min.js" defer></script>
+   
+    <script src="lib/lightbox/js/lightbox.min.js" defer></script>
 
     <!-- Main Javascript -->
     <script src="js/main.js"></script>

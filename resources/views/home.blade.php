@@ -6,6 +6,7 @@
 @include('partials.navbar')
 
 <head>
+<link rel="canonical" href="https://www.queendeeweddings.co.ke/">
     <!-- Libraries Stylesheet -->
     <link rel="stylesheet" href="{{asset('css/style.css')}}">
     <link href="{{asset('lib/animate/animate.min.css')}}" rel="stylesheet">
@@ -45,12 +46,12 @@
         <div class="container">
             <div class="row g-5">
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
-                    <div class="row g-3 img-twice position-relative h-100">
+                    <div class="row g-3  position-relative h-100">
                         <div class="col-6">
                             <img class="img-fluid  p-3"  style="background: #0000; box-shadow: 0 0 10px #ab7865;" src="{{asset('images/home/home_gallery11.webp')}}" alt="">
                         </div>
                         <div class="col-6 align-self-end">
-                            <img class="img-fluid  p-3"   style="background: #0000; box-shadow: 0 0 10px #ab7865;"src="{{asset('images/home/home_gallery8.webp')}}" alt="">
+                            <img class="img-fluid  p-3"   style="background: #0000; box-shadow: 0 0 10px #ab7865;"src="{{asset('images/daisy_profile .webp')}}" alt="">
                         </div>
                     </div>
                 </div>
@@ -312,19 +313,19 @@
 
     <section class="rating-section"></section>
     <div class="container-fluid customer-rating">
-        <div class="brief-card col customer-card">
+        <div class="brief-card col customer-card wow fadeInUp">
             <h2 class="display-2 text-primary mb-3" data-toggle="counter-up">100</h2>
             <h2 class="mb-3 text-primary">+</h2>
             <p>Happy Customers</p>
 
         </div>
-        <div class="brief-card col customer-card">
+        <div class="brief-card col customer-card wow fadeInUp">
             <h2 class="display-2 text-primary mb-3" data-toggle="counter-up" >1000</h2>
             <h2 class="mb-3 text-primary">+</h2>
             <p>Photos Taken</p>
 
         </div>
-        <div class="brief-card col customer-card">
+        <div class="brief-card col customer-card fadeInUp">
             <h2 class="display-2 text-primary mb-3" data-toggle="counter-up">50</h2>
             <h2 class="mb-3 text-primary">+</h2>
             <p>Weddings Covered</p>
@@ -336,7 +337,7 @@
             <p>Professional Team</p>
 
         </div>
-        <div class="brief-card col customer-card">
+        <div class="brief-card col customer-card wow fadeInUp">
             <h2 class="display-2 text-primary mb-3" data-toggle="counter-up">5</h2>
             <h2 class="mb-3 text-primary">+</h2>
             <p>Years of Experience</p>

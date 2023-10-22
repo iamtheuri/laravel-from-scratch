@@ -4,6 +4,8 @@
 
 <head>
     <meta charset="utf-8">
+    <link rel="canonical" href="https://www.queendeeweddings.co.ke/about">
+
 
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -30,6 +32,9 @@
 @include('partials.navbar')
 
 <body>
+    <div class="container-fluid wrapper">
+
+ 
         <!-- Header Start -->
         <div class="container-fluid hero-header bg-dark py-5 mb-5">
             <div class="container py-5">
@@ -81,7 +86,7 @@
                     <div class="col-sm-12 col-md-6 col-lg-3 d-flex align-items-center justify-content-center order-1 order-lg-2">
 
                         <div class="avatar-container">
-                            <img src="{{ asset('images\gallery\gallery3.webp') }}" class="img-fluid avatar" width="100%">
+                            <img src="{{ asset('images\daisy_about.webp') }}" class="img-fluid avatar" width="100%">
                         </div>
                     </div>
                 </div>
@@ -153,7 +158,8 @@
             </div>
             
         </div>
-    {{-- </div> --}}
+     </div> 
+</div>
     
 </body>
 

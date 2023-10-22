@@ -10,7 +10,7 @@
 <link href="{{asset('css/style.css')}}" rel="stylesheet">
 
 
-<nav class="navbar navbar-expand-lg navbar-collapse navbar-expand-md px-5 navbar-black bg-black fixed-top">
+<nav class="navbar navbar-expand-lg navbar-collapse navbar-expand-md px-2 navbar-black bg-black fixed-top">
     <a class="navbar-brand" href="#" 
         style="padding-left: 2rem;"
     >

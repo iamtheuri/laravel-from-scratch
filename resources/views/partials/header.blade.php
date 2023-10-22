@@ -1,5 +1,13 @@
 <head>
-    <title>Queen Dee Photography</title>
+    <title>Queen Dee Weddings</title>
+<meta name="keywords" content="wedding,photography">
+<meta name="keywords" content="wedding photography, wedding photographer, professional photography, wedding photos">
+<meta name="robots" content="index, follow">
+
+
+<meta name="description" content="Professional wedding photography services to capture your special moments. Contact us for your dream wedding photography experience.">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link
         rel="stylesheet"
         href="  https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css"

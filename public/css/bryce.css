@@ -37,7 +37,9 @@
 
 
 
-.nav-item:hover .nav-link:hover,
+
+
+.nav-item:hover , .nav-link:hover,
 .navbar-brand:hover
  {
     color: #ab7865;
