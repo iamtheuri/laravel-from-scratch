@@ -1,7 +1,7 @@
 <!-- Footer Start -->
 
 <div class="container-fluid footer position-relative text-white-50 mt-5 py-5 px-4 px-lg-5 bg-black fadeIn"
-    data-wow-delay="0.1s" style="border-top: 2px solid #121212;">
+    data-wow-delay="0.1s" style="box-shadow: 0 0 5px #ab7865;">
     <div class="row g-5 py-5">
         <div class="col-lg-6 pe-lg-5">
             <a href="#" class="navbar-brand">
