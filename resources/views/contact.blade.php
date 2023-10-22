@@ -1,38 +1,58 @@
 <!DOCTYPE html>
 <link rel="canonical" href="https://www.queendeeweddings.co.ke/contacts">
+<html lang="en">
+@include('partials.header') 
 
+<head>
+    <meta charset="utf-8">
 
+    <!-- Google Web Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet"> 
 
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
 
-@include('partials.header')
+    <!-- Libraries Stylesheet -->
+    <link href="{{asset('lib/animate/animate.min.css')}}" rel="stylesheet">
+    <link href="{{asset('lib/owlcarousel/assets/owl.carousel.min.css')}}" rel="stylesheet">
+    <link href="{{asset('lib/lightbox/css/lightbox.min.css')}}" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="{{asset('css/bootstrap.min.css')}}" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="{{asset('css/style.css')}}" rel="stylesheet">
+    <link href="{{asset('css/about.css')}}" rel="stylesheet">
+</head>
+
 @include('partials.navbar')
 
+<body class="bg-dark">
+    <div class="col">
+        <div class="container py-5"> 
 
-
-    <div class="container-fluid wrapper bg-dark" style="padding-top: 2rem"> 
-
-        
-
-
-        <section class="contact" style="background: #020403">
+        <section class="contact">
 
             <div class="content">
 
-                <h1>Connect With Us</h1>
+                <h1 class="text-uppercase">Connect With Us</h1>
 
                 <p>We would love to respond to your queries</p>
                 <p>Feel free to get in touch with Us</p>
             </div>
 
             <div class="contact-container">
-                <div class="contact-info">
+                <div class="contact-info col-lg-6 col-sm-12 col-md-12">
                     <div class="box">
                         <div class="icon">
                             <i class="fa fa-location-arrow" aria-hidden="true"></i>
                         </div>
                         <div class="text">
                             <h3>Address</h3>
-                            <p>Opposite KCB Building, <br> Along Magadi Road, <br>Ongata Rongai, 00511, <br>Kajiado, Kenya</p>
+                            <a href="#gps"><p>Opposite KCB, Along Magadi Road, Ongata Rongai, Kajiado, Kenya</p></a>
                         </div>
                     </div>
                     <div class="box">
@@ -41,7 +61,7 @@
                         </div>
                         <div class="text">
                             <h3>Phone</h3>
-                            <p>+254 722 486 897</p>
+                            <p>+254722486897</p>
                         </div>
                     </div>
                     <div class="box">
@@ -50,11 +70,11 @@
                         </div>
                         <div class="text">
                             <h3>Email</h3>
-                            <p>queendeephotography@gmail.com</p>
+                            <a href="mailto:queendeephotography@gmail.com"><p>queendeephotography <br>@gmail.com</p></a>
                         </div>
                     </div>
                 </div>
-                <div class="contact-form">
+                <div class="contact-form col-lg-6 col-sm-12 col-md-12">
                     <form action="{{ route('contact.submit') }}" method="POST" id="contact-form">
                         @csrf
 
@@ -104,7 +124,7 @@
             </div>
             <!-- Google Map Start -->
             <div class="container-xxl py-5 px-0 wow fadeInUp" data-wow-delay="0.1s">
-                <h2 class="text-center">Locate Us</h2>
+                <h2 class="text-center display-7 text-primary text-uppercase" id="gps">Locate Us</h2>
                 <iframe class="w-100 mb-n2" style="height: 450px;"
                     src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.6337989026847!2d36.7599689759169!3d-1.3961859985906278!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f05425915ef95%3A0xbcee11752be12550!2sDen-Eric&#39;s%20Classic%20By%20Shelter%20Link%20Enterprises%20Ltd!5e0!3m2!1sen!2ske!4v1695800344353!5m2!1sen!2ske" 
                     width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"  referrerpolicy="no-referrer-when-downgrade"
@@ -117,6 +137,9 @@
         
         
     </div>
+    </div>
+
+</body>
 
 <script>
     // Get modal and button elements
