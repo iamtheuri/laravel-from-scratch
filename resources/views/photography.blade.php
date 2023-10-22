@@ -93,7 +93,7 @@
                         <div class="col-12">
   
                             <div class="project-item">
-                                <img class="img-fluid" src="{{asset('images/portfolio/adrian-beryl/adrian-beryl-16.webp')}}" alt="">
+                                <img class="img-fluid" src="{{asset('images/portfolio/adrian-beryl/adrian-beryl-16.webp')}}" alt=" Adrian &amp Beryl ">
                                 <a class="project-title h5 mb-0" href="{{asset('images/portfolio/adrian-beryl/adrian-beryl-16.webp')}}" data-lightbox="adrian-beryl">
                                 Adrian &amp Beryl 
                                 </a>
