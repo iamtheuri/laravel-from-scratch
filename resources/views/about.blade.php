@@ -46,10 +46,10 @@
                     <div class="col-lg-6 animated fadeIn">
                         <div class="row g-3">
                             <div class="col-6 text-end">
-                                <img class="img-fluid bg-white p-3 w-100" src="images/gallery/gallery24.webp" alt="">
+                                <img class="img-fluid  p-3 w-100"  style="background: #0000; box-shadow: 0 0 10px #ab7865;" src="images/gallery/gallery24.webp" alt="">
                             </div>
                             <div class="col-6">
-                                <img class="img-fluid bg-white p-3 w-100" src="images/gallery/gallery34.webp" alt="">
+                                <img class="img-fluid p-3 w-100"   style="background: #0000; box-shadow: 0 0 10px #ab7865;"src="images/gallery/gallery34.webp" alt="">
                             </div>
                         </div>
                     </div>
@@ -66,7 +66,7 @@
                     <div class="col-sm-12 col-md-6 col-lg-9 align-items-center justify-content-center order-2 order-lg-1">
                         <h2 class="display-6 text-primary">Meet Daisy Wanjiru</h2>
                         <p class="about-us-p">
-                            I'm Daisy Wanjiru, the lead photographer and founder of Queen-Dee-Photography. Photography has been a
+                            I'm Daisy Wanjiru, the lead photographer and founder of Queen-Dee-Weddings. Photography has been a
                             passion of mine for as long as I can remember. I love the way it allows us to freeze time and capture
                             those beautiful, fleeting moments that define our lives.
                         </p>
@@ -98,7 +98,7 @@
                     <div class="col-sm-12 col-md-6 col-lg-9 align-items-center justify-content-center">
                         <h2 class="display-6 text-primary">Our Approach</h2>
                         <p class="about-us-p">
-                            At Queen-Dee-Photography, our approach to wedding photography is all about storytelling. We believe in
+                            At Queen-Dee-Weddings, our approach  is all about storytelling. We believe in
                             the power of authentic moments—the unscripted laughter, the stolen glances, the tender kisses. We're not
                             just photographers; we're visual storytellers who aim to create a timeless narrative of your love.
                         </p>
@@ -142,7 +142,7 @@
                             <p>
                                 Ready to take the next step? <a href="/contact">Let's Talk</a>
                             </p>
-                            <p>We can't wait to be a part of your journey! Thank you for considering Queen-Dee-Photography for your
+                            <p>We can't wait to be a part of your journey! Thank you for considering Queen-Dee-Weddings for your
                                 wedding photography needs. We're honored to be a part of your love story.
                             </p>
                             <a href="/services"><h2 class="display-6 text-primary" style="text-align: center;">Checkout Our Services!</h2></a>

@@ -47,10 +47,10 @@
                 <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.1s">
                     <div class="row g-3 img-twice position-relative h-100">
                         <div class="col-6">
-                            <img class="img-fluid bg-light p-3" src="{{asset('images/home/home_gallery11.webp')}}" alt="">
+                            <img class="img-fluid  p-3"  style="background: #0000; box-shadow: 0 0 10px #ab7865;" src="{{asset('images/home/home_gallery11.webp')}}" alt="">
                         </div>
                         <div class="col-6 align-self-end">
-                            <img class="img-fluid bg-light p-3" src="{{asset('images/home/home_gallery8.webp')}}" alt="">
+                            <img class="img-fluid  p-3"   style="background: #0000; box-shadow: 0 0 10px #ab7865;"src="{{asset('images/home/home_gallery8.webp')}}" alt="">
                         </div>
                     </div>
                 </div>

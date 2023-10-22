@@ -46,10 +46,10 @@
                 <div class="col-lg-6 animated fadeIn">
                     <div class="row g-3">
                         <div class="col-6 text-end">
-                            <img class="img-fluid bg-white p-3 w-100" src="images/gallery/gallery58.webp" alt="">
+                            <img class="img-fluid bg-dark p-3 w-100"  style="box-shadow: 0 0 10px grey;"  src="images/gallery/gallery58.webp" alt="">
                         </div>
                         <div class="col-6">
-                            <img class="img-fluid bg-white p-3 w-100" src="images/gallery/gallery3.webp" alt="">
+                            <img class="img-fluid bg-dark p-3 w-100"  style="box-shadow: 0 0 10px grey;" src="images/gallery/gallery3.webp" alt="">
                         </div>
                     </div>
                 </div>
@@ -72,9 +72,9 @@
                         <div class="col-12">
               
                             <div class="project-item">
-                                <img class="img-fluid" src="{{asset('images/portfolio/esther/esther-1.webp')}}" alt="">
+                                <img class="img-fluid" src="{{asset('images/portfolio/esther/esther-10.webp')}}" alt="">
                                 <a class="project-title h5 mb-0" href="{{asset('images/portfolio/esther/esther-1.webp')}}" data-lightbox="esther">
-                               Esther
+                               Walter &amp Esther
                                 </a>
 
                                 @foreach(range(2,13) as $gallery_number)
@@ -154,11 +154,11 @@
                         <div class="col-12">
                                  
                             <div class="project-item">
-                                <img class="img-fluid" src="{{asset('images/portfolio/sarah-kevin/kevin-sarah-1.webp')}}" alt="">
+                                <img class="img-fluid" src="{{asset('images/portfolio/sarah-kevin/kevin-sarah-1.webp')}}"  alt="">
                                 <a class="project-title h5 mb-0" href="{{asset('images/portfolio/sarah-kevin/kevin-sarah-1.webp')}}" data-lightbox="kevin-sarah">
                                  Kevin &amp Sarah 
                                 </a>
-                                @foreach(range(1,26) as $gallery_number)
+                                @foreach(range(1,12) as $gallery_number)
                                 <a class="invisible" href="{{asset('images/portfolio/sarah-kevin/kevin-sarah-'.$gallery_number.'.webp')}}" data-lightbox="kevin-sarah">
                                     
                                 </a>

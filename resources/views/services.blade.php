@@ -34,7 +34,7 @@
         <div class="container">
             <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 500px;">
                 <h2 class="display-6 text-primary text-uppercase">Our Services</h2>
-                <h1 class="display-6 mb-4 text-white">We Provide The Best Professional Services</h1>
+                <h1 class="display-6 mb-4 text-white">We Provide The Best Wedding Photography Services</h1>
             </div>
             <div class="row g-3 justify-content-center">
                 <div class="col-lg-2 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
@@ -60,7 +60,7 @@
                         style="background: #0000; box-shadow: 0 0 10px #ab7865;"
                     >
                         <div class="position-relative">
-                            <img class="img-fluid" src="images/gallery/gallery39.webp" alt="">
+                            <img class="img-fluid" src="images/gallery/gallery58.webp" alt="">
                             <div class="service-overlay">
                                 <a class="btn btn-lg-square btn-outline-light rounded-circle" href="#service4"><i class="fa fa-link text-primary"></i></a>
                             </div>
@@ -111,7 +111,7 @@
                             </div>
                         </div>
                         <div class="text-start p-3" style="max-width: 100%;">
-                            <h5 class="text-white" style="word-wrap: break-word; max-width: 100%;">Other Services?</h5>
+                            <h5 class="text-white" style="word-wrap: break-word; max-width: 100%;">Other Services</h5>
                         </div>
                     </div>
                 </div>
