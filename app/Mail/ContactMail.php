@@ -34,7 +34,7 @@ class ContactMail extends Mailable
      */
     public function build()
     {
-        return $this->subject('Queen-Dee-Photography')
+        return $this->subject('Queen-Dee-Weddings')
             ->replyTo($this->email)
             ->markdown('emails.contact');
     }

@@ -30,9 +30,16 @@
 </head>
 
 @include('partials.navbar')
+<style>
+    .container-fluid.wrapper{
+        padding-right:0px !important;
+    }
+    
+</style>
+
 
 <body>
-    <div class="container-fluid wrapper">
+    <div class="container-fluid wrapper" styling="padding:0">
 
  
         <!-- Header Start -->
@@ -63,12 +70,12 @@
         </div>
         <!-- Header End -->
 
-        <div class="about-content">
+        <div class="about-content container-fluid " styling="padding:0">
             
             <div class="col">
 
-                <div class="row" style="padding: 2rem 5rem 0rem 3rem;">
-                    <div class="col-sm-12 col-md-6 col-lg-9 align-items-center justify-content-center order-2 order-lg-1">
+                <div class="row container-fluid" styling="padding:0">
+                    <div class=" px-0 py-0 col-sm-12 col-md-6 col-lg-9 align-items-center justify-content-center order-2 order-lg-1">
                         <h2 class="display-6 text-primary">Meet Daisy Wanjiru</h2>
                         <p class="about-us-p">
                             I'm Daisy Wanjiru, the lead photographer and founder of Queen-Dee-Weddings. Photography has been a
@@ -86,17 +93,22 @@
                     <div class="col-sm-12 col-md-6 col-lg-3 d-flex align-items-center justify-content-center order-1 order-lg-2">
 
                         <div class="avatar-container">
-                            <img src="{{ asset('images\daisy_about.webp') }}" class="img-fluid avatar" width="100%">
+                            <div class="avatar">
+
+                            <img src="{{ asset('images\daisy_about.webp') }}" alt="Image of Queen Dee or Daisy" width="100%">
+                            </div>
                         </div>
                     </div>
                 </div>
 
-                <div class="row" 
-                    style="padding: 0rem 5rem 0rem 3rem; background: #1a1a1a;"
+                <div class="row container-fluid" styling="padding:0" 
+                    style="background: #1a1a1a;"
                 >
                     <div class="col-sm-12 col-md-6 col-lg-3 d-flex align-items-center justify-content-center p-3">
-                        <div class="oj-img">
-                            <img src="{{ asset('images\gallery\gallery14.webp') }}" class="oj-img avatar-img" width="100%">
+                        <div class="avatar-container">
+                            <div class="avatar">
+                            <img src="{{ asset('images\gallery\gallery14.webp') }}"  width="100%">
+                            </div>
                         </div>
                     </div>
                     
@@ -117,7 +129,7 @@
                     </div>
                 </div>
 
-                <div class="row" style="padding: 2rem 5rem 0rem 3rem;">
+                <div class="row container-fluid " styling="padding:1rem">
 
                     <div class="col d-flex align-items-center justify-content-center">
                         <div class="">

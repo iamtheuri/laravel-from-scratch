@@ -10,7 +10,6 @@
     <!-- Libraries Stylesheet -->
     <link rel="stylesheet" href="{{asset('css/style.css')}}">
     <link href="{{asset('lib/animate/animate.min.css')}}" rel="stylesheet">
-    <link href="{{asset('lib/owlcarousel/assets/owl.carousel.min.css')}}" rel="stylesheet">
     <link href="{{asset('lib/lightbox/css/lightbox.min.cs')}}s" rel="stylesheet">
     <link rel="stylesheet" href="{{asset('css/bootstrap.min.css')}}">
     <script src="{{asset('js/main.js')}}"></script>
@@ -51,7 +50,7 @@
                             <img class="img-fluid  p-3"  style="background: #0000; box-shadow: 0 0 10px #ab7865;" src="{{asset('images/home/home_gallery11.webp')}}" alt="">
                         </div>
                         <div class="col-6 align-self-end">
-                            <img class="img-fluid  p-3"   style="background: #0000; box-shadow: 0 0 10px #ab7865;"src="{{asset('images/daisy_profile .webp')}}" alt="">
+                            <img class="img-fluid  p-3"   style="background: #0000; box-shadow: 0 0 10px #ab7865;"src="{{asset('images/daisy_profile .webp')}}" alt="Image of Queen Dee or Daisy">
                         </div>
                     </div>
                 </div>
