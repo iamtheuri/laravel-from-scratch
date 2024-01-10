@@ -1,40 +1,53 @@
-<div class="">
-    <header class="header">
-  <nav class="navbar navbar-expand-lg navbar-expand-md  bg-body-tertiary fixed-top">
-    <div class="container-fluid navbar-bg">
-      <a class="navbar-brand" href="/">Queen Dee</a>
-      <button
-      style="color:grey"
-        class="navbar-toggler btn-sm"
-        type="button"
-        data-bs-toggle="collapse"
-        data-bs-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-        <ul class="navbar-nav    mb-lg-0">
-          <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="/">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/about">About</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="/photography">Photography</a>
-          </li>
-        </ul>
-        <div class="navbar-book">
-          <button class="btn  btn-book" type="submit">
-            <a href="/contacts">Book A Session</a>
-          </button>
-        </div>
-      </div>
-    </div>
-  </nav>
-</header>
+<!-- Libraries Stylesheet -->
+<link href="{{asset('lib/animate/animate.min.css')}}" rel="stylesheet">
+<link href="{{asset('lib/owlcarousel/assets/owl.carousel.min.css')}}" rel="stylesheet">
+<link href="{{asset('lib/lightbox/css/lightbox.min.css')}}" rel="stylesheet">
 
-</div>
+<!-- Customized Bootstrap Stylesheet -->
+<link href="{{asset('css/bootstrap.min.css')}}" rel="stylesheet">
+
+<!-- Template Stylesheet -->
+<link href="{{asset('css/style.css')}}" rel="stylesheet">
+
+
+<nav class="navbar navbar-expand-lg navbar-collapse navbar-expand-md px-5 navbar-black bg-black fixed-top">
+    <a class="navbar-brand" href="#" 
+        style="padding-left: 2rem;"
+    >
+       <img src="{{asset('images/quuenlogo.png')}}" width="200px" height="auto" class="logo" alt="">
+    </a>
+    <button 
+        class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" 
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse ml-auto justify-content-end" id="navbarNav" 
+        style="padding-right: 2rem;"
+    >
+        <ul class="navbar-nav mb-lg-0 ml-auto">
+            <li class="nav-item active">
+            <a class="nav-link" href="/">Home</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="/about">About</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="/photography">Gallery</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="/services">Services</a>
+            </li>
+        </ul>
+        <div class="navbar-book ml-auto">
+            <button class="btn btn-book" type="submit">
+            <a href="/contact">Book A Session</a>
+            </button>
+        </div>
+    </div>
+</nav>
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+<script src="js/main.js"></script>

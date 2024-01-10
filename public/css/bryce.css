@@ -1,0 +1,626 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;1,200;1,300;1,400;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600&family=Playfair+Display:wght@500;600;700&display=swap"); 
+
+* {
+
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    scroll-padding-top: 2rem;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+/* Navigation Bar */
+
+.navbar-bg {
+    position: absolute;
+    top: 0;
+    padding-left: 40px;
+    padding-right: 40px;
+
+    height: 5rem;
+
+    background-color: black;
+}
+
+.nav-link {
+    color: white !important;
+    font-size: 1.2rem;
+}
+
+.nav-item {
+    position: relative;
+}
+
+
+
+.nav-item:hover .nav-link:hover,
+.navbar-brand:hover
+ {
+    color: #ab7865;
+}
+
+
+
+.navbar-brand {
+    font-size: 2rem;
+    font-weight: 800;
+    color: aliceblue;
+}
+
+.navbar-book {
+    padding: 1rem 0rem 1rem 0rem;
+    cursor: pointer;
+}
+
+.btn-book {
+    background-color: #9f654f !important;
+    color: white !important;
+}
+
+.btn-book:hover {
+    background-color: #ab7865;
+}
+
+.btn-book a {
+    text-decoration: none;
+    color: white;
+    border: white;
+}
+
+.btn-back:hover {
+    background-color: #9f654f;
+}
+
+/* Body */
+body {
+    height: 100%;
+    background: black !important;
+    font-family: Euclid Circular A, Poppins;
+}
+
+html {
+    height: 100%;
+}
+
+.container-fluid.wrapper {
+    
+    min-height: calc(100% - 70px);
+    width: 100%;
+    position: static;
+    background-color: black;
+    padding-top: 4.4%;
+}
+
+.intro-content {
+   
+    min-height: 70vh;
+    
+    background-image: url('../images/gallery/gallery36.webp');
+    background-size: cover;
+    background-position: -80px center;
+    position: relative;
+    width: 100%;
+}
+.intro-content {
+    width: 100%;
+}
+
+.intro-img {
+    position: relative;
+    overflow: hidden;
+   
+}
+
+.intro-img img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+
+}
+
+.intro-img::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right,
+            rgba(0, 0, 0, 0.922),
+           transparent);
+    pointer-events: none;
+}
+
+/* Dark Color Filter Styles */
+.intro-img::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    pointer-events: none;
+}
+
+.description {
+    bottom: 100px;
+    left: 0;
+    position: absolute;
+}
+
+.description p {
+
+    font-size: 2rem;
+    color: #9f654f;
+    font-kerning: 1px;
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.description .special-p {
+
+    position: relative;
+    cursor: pointer;
+    font-size: 2rem;
+    text-decoration: none;
+    font-kerning: 1px;
+    color: white;
+    line-height: 1.5;
+    transition: text-decoration 0.3s ease;
+}
+
+.special-p::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 0;
+    height: 2px;
+    background-color: #9f654f;
+    transition: width 0.3s ease;
+}
+
+.special-p:hover {
+    color: #9f654f;
+}
+
+.special-p:hover::before {
+    width: 100%;
+}
+
+.latest-work{
+    padding-top: 10px;
+}
+
+.latest-work p {
+    font-size: 1.6rem;
+    color: white;
+    text-align: center;
+}
+
+.inline {
+    display: flex;
+   
+    justify-content: center;
+    align-items: baseline;
+}
+
+.inline p {
+    font-size: 1.6rem;
+}
+
+.gallery {
+    background-color: #1a1a1a;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, auto));
+    gap: 10px;
+    justify-items: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Box shadow for elevation */
+    border-radius: 8px; /* Rounded corners for a smoother look */
+    padding: 20px; }
+
+.gallery-image {
+   
+    width: 100%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    object-fit: cover;
+    overflow: hidden;
+    position: relative;
+   
+}
+.text-primary{
+    color: #9f654f !important;
+}
+
+.gallery-image:hover  img{
+    cursor: pointer;
+    transform: scale(1.04);
+    filter: brightness(100%) contrast(100%) saturate(50%) blur(0px) hue-rotate(0deg);
+   
+}
+
+.gallery-image img {
+    filter:  brightness(100%) contrast(100%) saturate(100%) blur(0px) hue-rotate(0deg);
+   
+    transition: transform 0.8s ease-in-out, filter 0.2s ease-in-out;
+    width: 100%;
+    height: 350px;
+
+    display: block;
+}
+
+.button ,.intro-what-we{
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.explore-more {
+    color: white !important;
+    background-color: #9f654f !important;
+    padding: 10px;
+    border-radius: unset;
+    margin: 10px;
+}
+
+.explore-more:hover {
+    background-color: #ab7865 !important;
+}
+.qualities .col-sm-6{
+    color: aliceblue;
+
+}
+
+.about-me {
+    padding: 30px;
+    background: #1a1a1a;
+    position: relative;
+}
+.about-me .crown-top{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.crown-bottom img,.crown-top img{
+    height: 50px;
+    width: 50px;
+
+}
+.about-me .crown-bottom{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.avatar-container {
+    width: 350px;
+    height: 350px;
+    overflow: hidden;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.avatar {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.col-md-6 {
+    padding: 10px;
+    justify-content: center;
+}
+
+.col-md-6 p,
+h2 {
+    color: white;
+}
+
+.socials-about {
+    display: flex;
+    justify-content: space-around;
+    width: 350px;
+}
+.intro-label{
+    display: block;
+
+}
+
+
+.intro-label h3,p {
+
+    color: #fff;
+   
+}
+.what-wedo-grid{
+    display: grid;
+    
+   
+
+    grid-template-columns: repeat(auto-fill, minmax(250px, auto));
+    gap: 2rem;
+    justify-items: center;
+
+}
+
+.brief-card{
+    padding: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    justify-content: center;
+    max-width: 500px;
+    background-color:#1a1a1a ;
+    transition: all 1s ease-in-out;
+   
+}
+
+.brief-card:hover{
+    transform: scale(1.05);
+
+}
+.brief-card a :hover{
+    color: white;
+
+}
+
+
+.wedding{
+    color: #9f654f;
+
+}
+@media (max-width:500) {
+    
+
+    
+}
+@media (min-width:768px) {
+
+    .intro-content {
+   
+        min-height: 70vh;
+        
+        background-image: url('../images/gallery/gallery36.webp');
+        background-size: cover;
+        background-position: 80px center;
+        position: relative;
+        width: 100%;
+    }
+    .nav-link::after {
+        content: "";
+        border-radius: 5px;
+        position: absolute;
+        bottom: -6px;
+        left: 0;
+        transform: scaleX(0);
+        width: 100%;
+        height: 3px;
+        background: #ab7865;
+        transition: transform 0.5s;
+    }
+    .nav-item:hover .nav-link::after {
+        transform-origin: center;
+        transform: scaleX(-1);
+    }
+
+
+    .gallery-image img{
+        height: 400px;
+    }
+
+    .customer-rating{
+       
+        
+       
+        grid-template-columns: repeat(5, 1fr);
+        
+    
+    }
+
+    .gallery{
+        grid-template-columns: repeat(auto-fill, minmax(300px, auto));
+    }
+    .what-wedo-grid{
+        grid-template-columns: repeat(4, 1fr); 
+
+
+    }
+    
+}
+.advert{
+    padding-top: 30px;
+}
+
+.container-advert {
+
+    
+    background: linear-gradient(to bottom, rgba(17, 30, 34, 1), rgba(17, 30, 34, 0));
+    min-height: 500px;
+    background-image: url('../images/advert.webp');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    padding-top: 30px;
+}
+.container-advert::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom,
+            rgba(0, 0, 0, 0.922),
+           transparent);
+           
+    pointer-events: none;
+}
+
+
+
+.advert-description {
+
+   
+    bottom: 40px;
+    left: 50%;
+
+    padding: 10px; 
+ /* background-color: rgba(0, 0, 0, 0.7); */
+    color: #fff;
+}
+
+.advert-description h3 {
+    font-size: 1.5rem; /* Use relative font size */
+
+    font-weight: bold;
+}
+
+.advert-description h2 {
+    color: #ab7865;
+    font-size: 2rem; /* Use relative font size */
+    font-weight: bold;
+}
+.advert-description p{
+    font-weight: bold;
+    color: white;
+    font-size: large;
+
+}
+.advert a:hover{
+    color: #fff;
+}
+
+.customer-rating{
+    display: grid;
+    background-color: #1a1a1a;
+    padding: 30px;
+    
+   
+    grid-template-columns: repeat(auto-fill,minmax(auto, auto));
+    gap: 2rem;
+    justify-items: center;
+
+}
+.customer-card{
+    text-align: center;
+    border: 0.5px solid #ab7865;
+    
+}
+
+
+.customer-card p{
+    color: #ab7865;
+}
+
+
+ /* Customer effect on scroll */
+ .fade-in {
+    opacity: 0;
+    transform: translateY(100px); /* Optional: Add a slight vertical offset */
+    transition: opacity 1s ease, transform 1s ease;
+}
+.fade-in-visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+/*Photography section */
+
+.welcome-text{
+    margin-top: 10px;
+    font-size: 1rem;
+}
+
+/* Add CSS styles for modal and carousel here */
+.modal {
+    position: relative;
+  
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.7);
+    align-items:center;
+    justify-content:center;
+
+}
+
+.carousel {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    position: relative;
+}
+
+.modal-content {
+    transition:all 0.5s ease-out;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.modal-close {
+    position: absolute;
+    top: 0;
+    right: -50px;
+
+    color: white;
+
+    font-size: 40px;
+    cursor: pointer;
+    z-index: 1;
+}
+
+.prev,
+.next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 30px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    z-index: 1;
+    color: white;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+
+
+
+.social-icon {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: #fff;
+    color: #9f654f;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+}
+
+.social-icon:hover {
+    background: #9f654f;
+    color: #fff;
+}
+
